@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <application title="GroWNC GIS Viewer" >
+  </application>
+  <extent xmin="-9410693" ymin="4143680" xmax="-9165000" ymax="4288452" xminZoom="-9399500" yminZoom="4150000" xmaxZoom="-8900000" ymaxZoom="4400000" wkid="102100"></extent> 
+  <server map_path="http://arcgisserver7.nemac.org/ArcGIS/" >
+  </server>
+  <images>
+    <image name="Streets"   label="Streets"  url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"  selected="true" />
+    <image name="Basic"     label="Basic"    url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" />
+    <image name="Relief"    label="Relief"   url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" />
+    <image name="Terrain"   label="Terrain"  url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" />
+    <image name="Imagery"   label="Imagery"  url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"/>
+    <image name="Topo_Map"  label="Topo Map" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" />
+    <image name="USA_Topo"  label="USA Topo" url="http://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer"/>
+    <image name="None"      label="None"     url="http://arcgisserver7.nemac.org/ArcGIS/rest/services/US/US_Jurisdictions_filled2/MapServer/" />
+  </images>
+  <mapviews>
+    <view name="GroWNC" label="GroWNC" selected="true">
+      <viewGroup name="Jurisdictions" />
+      <viewGroup name="Natural" />
+    </view>
+  </mapviews>
+<wmsLayers>
+  <wmsGroup gid="G01" name="Jurisdictions" label="Political Boundaries and Locations">
+    <wmsSubgroup label="Political Boundaries and Locations">
+      <wmsLayer
+	 lid="AAA"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="counties"
+	 styles="default"
+	 identify="true"
+	 name="counties"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=counties&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+    </wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G02" name="Natural" label="Natural">
+   <wmsSubgroup label="Ecosystems">
+      <wmsLayer
+	 lid="AAB"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="municipal_boundaries"
+	 styles="default"
+	 identify="true"
+	 name="municipal_boundaries"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=municipal_boundaries&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	</wmsSubgroup> 
+  </wmsGroup>
+</wmsLayers>
+  <tools>
+    <tool name="Print" label="Print Map" />
+    <tool name="Export" label="Export Map to JPG" />
+    <tool name="Identify" label="Identify Features" linkFields=""/>
+    <tool name="Phenograph" label="Graph NDVI" helpText = "Click the map to see NDVI for the point. Or, enter coordinates and click Make Graph."/>
+    <tool name="ShareMap" label="Share this Map" helpText = "Copy the URL below to share this map with someone else."/>
+  </tools>
+</config>
