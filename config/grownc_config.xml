@@ -22,18 +22,49 @@
     </view>
   </mapviews>
 <wmsLayers>
-  <wmsGroup gid="G01" name="Built" label="Political Boundaries and Locations">
-    <wmsSubgroup label="Political Boundaries and Locations">
+  <wmsGroup gid="G01" name="Built" label="Built">
+    <wmsSubgroup label="Transportation">
       <wmsLayer
-	 lid="AAA"
+	 lid="BTAR"
 	 visible="false"
-	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/counties.xml"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Abandoned_Railroads.xml"
 	 srs="EPSG:3785"
-	 layers="counties"
+	 layers="abandoned_railroads"
 	 styles="default"
 	 identify="true"
-	 name="counties"
-	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=counties&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	 name="Abandoned Railroads"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="BTAP"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Airports.xml"
+	 srs="EPSG:3785"
+	 layers="airports"
+	 styles="default"
+	 identify="true"
+	 name="Airports"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Airports.png"/>	 
+      <wmsLayer
+	 lid="BTAT"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Appalachian_Trail.xml"
+	 srs="EPSG:3785"
+	 layers="appalachian_trail"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="BTATP"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Appalachian_Trail_Parking.xml"
+	 srs="EPSG:3785"
+	 layers="appalachian_trail_parking"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail Parking"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Appalachian_Trail_Parking.png"/>
+	 
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
