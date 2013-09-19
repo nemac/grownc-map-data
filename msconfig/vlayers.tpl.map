@@ -72,60 +72,90 @@ MAP
         KEYSIZE 30 20
     END
 
+	#Built Section
     LAYER # 
-        NAME counties
+        NAME abandoned_railroads
         PROJECTION
             "init=epsg:4326"
         END
         CONNECTIONTYPE   postgis
         CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
-        DATA             "the_geom from counties_5c"
+        DATA             "the_geom from abandoned_railroads"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
-        TYPE             POLYGON
+        TYPE             LINE
         DUMP             TRUE
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "counties"
+            NAME "abandoned_railroads"
             STYLE
-                SYMBOL 'circle'
-                SIZE 5
-                COLOR 0 0 0 
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 0 0 
             END
-        END
+        END		
         METADATA
-            "wms_title"          "counties"
-            "wms_abstract"       "counties"
+            "wms_title"          "abandoned_railroads"
+            "wms_abstract"       "abandoned_railroads"
             "gml_include_items"  "all"
         END  # end METADATA
     END # 
-
     LAYER # 
-        NAME municipal_boundaries
+        NAME airports
         PROJECTION
             "init=epsg:4326"
         END
         CONNECTIONTYPE   postgis
         CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
-        DATA             "the_geom from municipal_boundaries_5c"
+        DATA             "the_geom from airports"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
-        TYPE             POLYGON
+        TYPE             LINE
         DUMP             TRUE
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "municipal_boundaries"
+            NAME "airports"
             STYLE
-                #COLOR        232 232 232
-                OUTLINECOLOR 0 0 0 
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 0 0 
             END
-        END
+        END		
         METADATA
-            "wms_title"            "municipal_boundaries"
-            "wms_abstract"         "municipal_boundaries"
-            "gml_include_items"    "all"
+            "wms_title"          "airports"
+            "wms_abstract"       "airports"
+            "gml_include_items"  "all"
         END  # end METADATA
-    END # end Layer
+    END # 	
+    LAYER # 
+        NAME appalachian_trail
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from appalachian_trail"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "appalachian_trail"
+            STYLE
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 255 102 
+            END
+        END		
+        METADATA
+            "wms_title"          "appalachian_trail"
+            "wms_abstract"       "appalachian_trail"
+            "gml_include_items"  "all"
+        END  # end METADATA
+    END #	
+	
 END
