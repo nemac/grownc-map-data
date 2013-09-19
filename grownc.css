@@ -1,3 +1,51 @@
+#titleBar {
+    z-index:5;
+    background:#6c9d30;
+	padding:5px;
+    display: block;
+    position: relative;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow:0px 2px 3px #333;
+}      
+
+#titlebar h2 {
+	color:#fff;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin: 0 auto 0 auto;
+	font-size:1.25em;
+}
+
+#header {
+    z-index:10002;
+    background:#fff;
+    display: block;
+	height:35px;
+	padding-left:3px;
+	box-shadow:3px 1px 5px #333;
+	text-align:center;
+	border-bottom:thick solid #6c9d30;
+}
+
+#footer {
+    z-index:10003;
+    background:#00aeef;
+    display: block;
+	height:30px;
+	padding-left:3px;
+	box-shadow:3px 1px 5px #333;
+	text-align:center;
+	color:#FFF;
+}
+
+#footer a {
+	color:#FFF;
+}
+
+/* everything below here is old so it can be changed and reformatted*/
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -15,23 +63,8 @@ a{
 }
 
 
-#titleBar {
-    z-index:5;
-    background:#592f85;
-	padding:5px;
-    display: block;
-    position: relative;
-	font-family:Arial, Helvetica, sans-serif;
-	box-shadow:0px 2px 3px #333;
-}      
 
-#titlebar h2 {
-	color:#e5eaf4;
-	font-weight:bold;
-	letter-spacing:-1px;
-	margin: 0 auto 0 auto;
-	font-size:1.25em;
-}
+
 
 
 #leftmenuitems, #selectmenuitems, #maptoolmenuitems, #rightmenuitems {
@@ -59,15 +92,7 @@ a{
 	margin-right:3px;
 } 
   
-#header {
-    z-index:10002;
-    background:#f0e0c7;
-    display: block;
-	height:35px;
-	padding-left:3px;
-	box-shadow:3px 1px 5px #333;
-	text-align:center;
-}
+
 
 .buttonTool {
     background-color : transparent;
@@ -307,15 +332,7 @@ textarea.shareMapUrl {
     font-size: 13px;
 }
 
-#footer {
-    z-index:10003;
-    background:#f0e0c7;
-    display: block;
-	height:30px;
-	padding-left:3px;
-	box-shadow:3px 1px 5px #333;
-	text-align:center;
-}
+
 #links
 {
     float: left;
