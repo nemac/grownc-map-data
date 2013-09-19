@@ -55,7 +55,19 @@
 	 name="Appalachian Trail"
 	 legend="%(SERVER_URL)s/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
-	 lid="BTATP"
+	 lid="BRP"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Blue_Ridge_Parkway.xml"
+	 srs="EPSG:3785"
+	 layers="blue_ridge_parkway"
+	 styles="default"
+	 identify="true"
+	 name="Blue Ridge Parkway"
+	 legend="%(SERVER_URL)s/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=blue_ridge_parkway&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+    </wmsSubgroup>
+	<wmsSubgroup label="Infrastructure">
+      <wmsLayer
+	 lid="BIATP"
 	 visible="false"
 	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Parking.xml"
 	 srs="EPSG:3785"
@@ -65,7 +77,7 @@
 	 name="Appalachian Trail Parking"
 	 legend="%(SERVER_URL)s/msconfig/cmapicons/Appalachian_Trail_Parking.png"/>
       <wmsLayer
-	 lid="BTATP"
+	 lid="BIATS"
 	 visible="false"
 	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Shelters.xml"
 	 srs="EPSG:3785"
@@ -73,8 +85,18 @@
 	 styles="default"
 	 identify="true"
 	 name="Appalachian Trail Shelters"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Appalachian_Trail_Shelters.png"/>	 
-    </wmsSubgroup>
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/Appalachian_Trail_Shelters.png"/>	 	
+      <wmsLayer
+	 lid="BIDA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Dams_All.xml"
+	 srs="EPSG:3785"
+	 layers="dams_all"
+	 styles="default"
+	 identify="true"
+	 name="Dams All"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 
+	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
    <wmsSubgroup label="Ecosystems">

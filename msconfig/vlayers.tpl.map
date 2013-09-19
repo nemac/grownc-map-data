@@ -213,5 +213,60 @@ MAP
             "gml_include_items"  "all"
         END  # end METADATA
     END #	
-	
+    LAYER # 
+        NAME blue_ridge_parkway
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from blue_ridge_parkway"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "blue_ridge_parkway"
+            STYLE
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 0 0  
+            END
+        END		
+        METADATA
+            "wms_title"          "blue_ridge_parkway"
+            "wms_abstract"       "blue_ridge_parkway"
+            "gml_include_items"  "all"
+        END  # end METADATA
+    END #		
+    LAYER # 
+        NAME dams_all
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from dams_all"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "dams_all"
+            STYLE
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 0 0  
+            END
+        END		
+        METADATA
+            "wms_title"          "dams_all"
+            "wms_abstract"       "dams_all"
+            "gml_include_items"  "all"
+        END  # end METADATA
+    END #			
 END
