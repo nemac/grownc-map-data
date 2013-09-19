@@ -17,17 +17,17 @@
   </images>
   <mapviews>
     <view name="GroWNC" label="GroWNC" selected="true">
-      <viewGroup name="Jurisdictions" />
+      <viewGroup name="Built" />
       <viewGroup name="Natural" />
     </view>
   </mapviews>
 <wmsLayers>
-  <wmsGroup gid="G01" name="Jurisdictions" label="Political Boundaries and Locations">
+  <wmsGroup gid="G01" name="Built" label="Political Boundaries and Locations">
     <wmsSubgroup label="Political Boundaries and Locations">
       <wmsLayer
 	 lid="AAA"
 	 visible="false"
-	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/counties.xml"
 	 srs="EPSG:3785"
 	 layers="counties"
 	 styles="default"
