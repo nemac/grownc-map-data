@@ -47,98 +47,78 @@
 
   <body>
 
-    <table width="100%" height="100%" class="nonselectable">
-      <tr><td>
-          <div id="titleBar">
-            <h2>GroWNC GIS Viewer</h2>
-          </div>
-      </td></tr>
+    <div id="titleBar">
+      <h2>GroWNC GIS Viewer</h2>
+    </div>
 
-      <tr><td>
-          <div id="header">
-            <table width="100%" border="0">
-              <tr>
-                <td align="left">
-                  <div id='btnTglLyrPick' style="width:35px;display:inline-block;" class="buttonTool">
-                    <img id="tglLyrPickPic" src='icons/layers.png' title="Toggle Map Layers"/>
-                  </div>        
-  		  <div id='btnTglMapTools' style="width:35px;display:inline-block;" class="buttonTool">
-		    <img id="tglLegendPic" src='icons/legend.png' title="Toggle Map Tools"/>
-		  </div> 
-		  <div id='btnAbout' style="width:35px;display:inline-block;" class="buttonTool">
-                    <img id="aboutPic" src='icons/about.png' title="About"/>
-                  </div>
-                </td>
-	        <td align="center">
-	          <div id='btnPan' style="display:inline-block;" class="buttonTool">
-	            <img id="panPic" src='icons/pan.png' title="Pan"/>
-	          </div>
-	          <div id='btnZoomIn' style="display:inline-block;" class="buttonTool">
-	            <img id="zoomInPic" src='icons/zoom-in.png' title="Zoom In"/>
-	          </div>
-	          <div id='btnZoomOut' style="display:inline-block;" class="buttonTool">
-	            <img id="zoomOutPic" src='icons/zoom-out.png' title="Zoom Out"/>
-	          </div>
-	          <div id='btnID' style="display:inline-block;" class="buttonTool">
-	            <img id="idPic" src='icons/map-info.png' title="Identify"/>
-	          </div>
-	          <div id='btnZoomExtent' style="display:inline-block;" class="buttonTool">
-	            <img id="zoomExtentPic" src='icons/zoom-extent.png' title="Full Extent"/>
-	          </div>
-                  <!--
- 	              <div id='btnMultiGraph' style="display:inline-block;">
-	                <img id="multiGraphPic" src='icons/multigraph.png'/>
-	              </div>
-                  -->
-                  <div id='btnPrev' style="width:23px;display:inline-block;" class="buttonTool">
-                    <img id="prevPic" title="Previous Extent" src='icons/prev.png'/>
-                  </div>
-                  <div id='btnNext' style="width:23px;display:inline-block;" class="buttonTool">
-                    <img id="nextPic" title="Next Extent" src='icons/next.png'/>
-                  </div>
-		  <div id='mapBase' style="display:inline-block;vertical-align:top;">
-                    <b>Base Map:</b><select id="baseCombo"></select>
-	          </div>
-<!-- 	          <div id='mapTheme' style="display:inline-block;vertical-align:top;">
-	            <b>Theme:</b> <select id="themeCombo"></select>
-	          </div> -->
-                  <div id='txtFindArea' class="ui-widget" style="display:inline-block;vertical-align:top;">
-		    Find Area:<input id="findArea" />
-                  </div>                
-		</td>
-	      </tr>
-            </table>           
-          </div>
-      </td></tr>
+    <div id="header">
 
-      <tr height="100%"><td>
-          <div title="Map Layers" id="layerPickerDialog">
-          </div>    
+      <div class="header-bar">
+        <div id="btnTglLyrPick" class="btn-large header-bar">
+          <img id="tglLyrPickPic" src="icons/layers.png" class="icon" title="Toggle Map Layers"/>
+        </div>
+        <div id="btnTglMapTools" class="btn-large header-bar">
+          <img id="tglLegendPic" src="icons/legend.png" class="icon" title="Toggle Map Tools"/>
+        </div>
+        <div id="btnAbout" class="btn-large header-bar">
+          <img id="aboutPic" src="icons/about.png" class="icon" title="About"/>
+        </div>
+      </div>
 
-          <div title="Map Tools" id="mapToolsDialog">
-            <div id="mapToolsAccordion" style="height:400px;">
-              <h3><a href="#shareMapAccordion">Share this Map</a></h3>
-              <div><textarea class="shareMapUrl" readonly="true"></textarea></div>
-              <h3><a href="#legendAccordion">Legend (click to clear layer)</a></h3>
-              <div id="legend"></div>
-            </div> 
-          </div>
+      <div id="btn-small-group" class="header-bar">
+        <div id="btnPan" class="header-bar">
+          <img id="panPic" src="icons/pan.png" class="icon" title="Pan"/>
+        </div>
+        <div id="btnZoomIn" class="header-bar hidden-phone-portrait hidden-phone-landscape">
+          <img id="zoomInPic" src="icons/zoom-in.png" class="icon" title="Zoom In"/>
+        </div>
+        <div id="btnZoomOut" class="header-bar hidden-phone-portrait hidden-phone-landscape">
+          <img id="zoomOutPic" src="icons/zoom-out.png" class="icon" title="Zoom Out"/>
+        </div>
+        <div id="btnID" class="header-bar">
+          <img id="idPic" src="icons/map-info.png" class="icon" title="Identify"/>
+        </div>
+        <div id="btnZoomExtent" class="header-bar">
+          <img id="zoomExtentPic" src="icons/zoom-extent.png" class="icon" title="Full Extent"/>
+        </div>
+        <div id="btnPrev" class="header-bar hidden-phone-portrait hidden-phone-landscape">
+          <img id="prevPic" src="icons/prev.png" class="icon" title="Previous Extent"/>
+        </div>
+        <div id="btnNext" class="header-bar hidden-phone-portrait hidden-phone-landscape">
+          <img id="nextPic" src="icons/next.png" class="icon" title="Next Extent"/>
+        </div>
+      </div>
+      <div id="mapBase" class="header-bar input input-select">
+        <strong>Base Map:</strong><select id="baseCombo"></select>
+      </div>
+      <div id="txtFindArea" class="ui-widget" class="header-bar input">
+        <strong id="findAreaLabel">Find Area:</strong><input id="findArea"/>
+      </div>
+    </div>
 
-          <div id="map">
-          </div>
+    <div id="map"></div>
 
-      </td></tr>
-      <tr><td>
-          <div id="footer">      
-                <div id="links">
-                    <a href="http://www.gro-wnc.org/">GroWNC</a>
-                </div>
-                <div id="latLonTracker"></div>
-          </div>
-      </td></tr>
-    </table>
+    <div id="footer">      
+      <div id="links">
+        <a href="http://www.optinswnc.org/" class="link">http://www.optinswnc.org</a>
+      </div>
+      <div id="latLonTracker" class="hidden-phone-portrait hidden-phone-landscape hidden-tablet-portrait"></div>
+    </div>
+
+    <div title="Map Layers" id="layerPickerDialog"></div>    
+
+    <div title="Map Tools" id="mapToolsDialog">
+      <div id="mapToolsAccordion">
+        <h3><a href="#shareMapAccordion">Share this Map</a></h3>
+        <div><textarea class="shareMapUrl" readonly="true"></textarea></div>
+        <h3><a href="#legendAccordion">Legend (click to clear layer)</a></h3>
+        <div id="legend"></div>
+      </div> 
+    </div>
+
     <div id="propertyDialogsContainer"></div>
     <div id="splashScreenContent"></div>
     <div id="splashScreenContainer"></div>
+
   </body>
 </html>
