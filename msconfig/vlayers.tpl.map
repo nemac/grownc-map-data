@@ -185,5 +185,33 @@ MAP
             "gml_include_items"  "all"
         END  # end METADATA
     END #	
+    LAYER # 
+        NAME appalachian_trail_shelters
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from appalachian_trail_shelters"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "appalachian_trail_shelters"
+            STYLE
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 255 102 
+            END
+        END		
+        METADATA
+            "wms_title"          "appalachian_trail_shelters"
+            "wms_abstract"       "appalachian_trail_shelters"
+            "gml_include_items"  "all"
+        END  # end METADATA
+    END #	
 	
 END

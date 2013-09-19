@@ -2,7 +2,7 @@
 <config>
   <application title="GroWNC GIS Viewer" >
   </application>
-  <extent xmin="-9410693" ymin="4143680" xmax="-9165000" ymax="4288452" xminZoom="-9399500" yminZoom="4150000" xmaxZoom="-8900000" ymaxZoom="4400000" wkid="102100"></extent> 
+  <extent xmin="-9260000" ymin="4160000" xmax="-9140000" ymax="4320000" xminZoom="-9239313" yminZoom="4173463" xmaxZoom="-9167677" ymaxZoom="4303615" wkid="102100"></extent> 
   <server map_path="http://arcgisserver7.nemac.org/ArcGIS/" >
   </server>
   <images>
@@ -64,7 +64,16 @@
 	 identify="true"
 	 name="Appalachian Trail Parking"
 	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Appalachian_Trail_Parking.png"/>
-	 
+      <wmsLayer
+	 lid="BTATP"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Appalachian_Trail_Shelters.xml"
+	 srs="EPSG:3785"
+	 layers="appalachian_trail_shelters"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail Shelters"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Appalachian_Trail_Shelters.png"/>	 
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
