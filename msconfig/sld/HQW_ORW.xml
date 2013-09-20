@@ -9,7 +9,7 @@
 					<Title><![CDATA[HQW]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[HQW]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -27,10 +27,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[HQW_Water_Supply_Watershed]]></Name>
-					<Title><![CDATA[HQW_Water_Supply_Watershed]]></Title>
+					<Title><![CDATA[HQW Water Supply Watershed]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[HQW/WSW]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -51,7 +51,7 @@
 					<Title><![CDATA[ORW]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[ORW]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -69,10 +69,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[ORW_Special_Management_Strategy_Area]]></Name>
-					<Title><![CDATA[ORW_Special_Management_Strategy_Area]]></Title>
+					<Title><![CDATA[ORW Special Management Strategy Area]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[ORW Special Management Strategy Area]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -90,10 +90,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[ORW_Water_Supply_Watershed]]></Name>
-					<Title><![CDATA[ORW_Water_Supply_Watershed]]></Title>
+					<Title><![CDATA[ORW Water Supply Watershed]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[ORW/WSW]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -111,10 +111,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[Water_Supply_Watershed]]></Name>
-					<Title><![CDATA[Water_Supply_Watershed]]></Title>
+					<Title><![CDATA[Water Supply Watershed]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>CLASS</ogc:PropertyName>
+							<ogc:PropertyName>class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[WSW]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

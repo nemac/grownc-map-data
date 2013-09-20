@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Urban_Areas]]></Name>
-					<Title><![CDATA[Urban_Areas]]></Title>
+					<Title><![CDATA[Urban Areas]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#ffaa00</CssParameter>

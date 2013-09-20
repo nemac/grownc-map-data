@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Communities_Incorporated]]></Name>
-					<Title><![CDATA[Communities_Incorporated]]></Title>
+					<Title><![CDATA[Communities Incorporated]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

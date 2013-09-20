@@ -719,5 +719,626 @@ MAP
         END  # end METADATA
     END # end Layer	
 
+	#Economic Section------------------------------------------------------------
+	
+	LAYER # 
+        NAME gas_stations
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from gas_stations"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "gas_stations"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "gas_stations"
+            "wms_abstract"         "gas_stations"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME gas_stations
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from gas_stations"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "gas_stations"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "gas_stations"
+            "wms_abstract"         "gas_stations"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
 
+	#Human Section------------------------------------------------------------
+	
+	LAYER # 
+        NAME game_lands
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from game_lands"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "game_lands"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "game_lands"
+            "wms_abstract"         "game_lands"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME public_trout_rivers
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from public_trout_rivers"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "public_trout_rivers"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "public_trout_rivers"
+            "wms_abstract"         "public_trout_rivers"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME colleges_universities
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from colleges_universities"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "colleges_universities"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "colleges_universities"
+            "wms_abstract"         "colleges_universities"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME private_schools
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from private_schools"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "private_schools"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "private_schools"
+            "wms_abstract"         "private_schools"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME public_schools
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from public_schools"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "public_schools"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "public_schools"
+            "wms_abstract"         "public_schools"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME hospitals
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from hospitals"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "hospitals"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "hospitals"
+            "wms_abstract"         "hospitals"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME medical_facilities
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from medical_facilities"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "medical_facilities"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "medical_facilities"
+            "wms_abstract"         "medical_facilities"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME public_health_centers
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from public_health_centers"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "public_health_centers"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "public_health_centers"
+            "wms_abstract"         "public_health_centers"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	#Political Boundaries Section------------------------------------------------------------
+	
+	LAYER # 
+        NAME census_blocks_2010
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from census_blocks_2010"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "census_blocks_2010"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "census_blocks_2010"
+            "wms_abstract"         "census_blocks_2010"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME census_block_groups_2010
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from census_block_groups_2010"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "census_block_groups_2010"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "census_block_groups_2010"
+            "wms_abstract"         "census_block_groups_2010"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME census_tracts_2010
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from census_tracts_2010"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "census_tracts_2010"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "census_tracts_2010"
+            "wms_abstract"         "census_tracts_2010"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME communities_incorporated
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from communities_incorporated"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "communities_incorporated"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "communities_incorporated"
+            "wms_abstract"         "communities_incorporated"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME communities_other
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from communities_other"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "communities_other"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "communities_other"
+            "wms_abstract"         "communities_other"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME county_boundaries
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from county_boundaries"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "county_boundaries"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "county_boundaries"
+            "wms_abstract"         "county_boundaries"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME county_seats
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from county_seats"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "county_seats"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "county_seats"
+            "wms_abstract"         "county_seats"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME federal_lands
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from federal_lands"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "federal_lands"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "federal_lands"
+            "wms_abstract"         "federal_lands"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME municipal_boundaries
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from municipal_boundaries"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "municipal_boundaries"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "municipal_boundaries"
+            "wms_abstract"         "municipal_boundaries"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME populated_places_esri
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from populated_places_esri"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "populated_places_esri"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "populated_places_esri"
+            "wms_abstract"         "populated_places_esri"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME state_owned_lands
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from state_owned_lands"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "state_owned_lands"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "state_owned_lands"
+            "wms_abstract"         "state_owned_lands"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
+	LAYER # 
+        NAME zip_codes
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from zip_codes"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "zip_codes"
+            STYLE
+                COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "zip_codes"
+            "wms_abstract"         "zip_codes"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+	
 END

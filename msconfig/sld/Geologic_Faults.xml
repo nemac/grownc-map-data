@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Geologic_Faults]]></Name>
-					<Title><![CDATA[Geologic_Faults]]></Title>
+					<Title><![CDATA[Geologic Faults]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#000000</CssParameter>

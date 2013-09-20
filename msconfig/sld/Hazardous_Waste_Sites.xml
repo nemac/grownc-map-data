@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Hazardous_Waste_Sites]]></Name>
-					<Title><![CDATA[Hazardous_Waste_Sites]]></Title>
+					<Title><![CDATA[Hazardous Waste Sites]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

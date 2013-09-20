@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Floodplains_500yr]]></Name>
-					<Title><![CDATA[Floodplains_500yr]]></Title>
+					<Title><![CDATA[Floodplains 500yr]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#0084a8</CssParameter>

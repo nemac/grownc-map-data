@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Gas_Stations]]></Name>
-					<Title><![CDATA[Gas_Stations]]></Title>
+					<Title><![CDATA[Gas Stations]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

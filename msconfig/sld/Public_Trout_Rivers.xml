@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <StyledLayerDescriptor xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:gml='http://www.opengis.net/gml' xmlns:ogc='http://www.opengis.net/ogc' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.0.0' xsi:schemaLocation='http://www.opengis.net/sld StyledLayerDescriptor.xsd' xmlns='http://www.opengis.net/sld' >
 	<NamedLayer>
-		<Name><![CDATA[Public_Trout_Rivers]]></Name>
+		<Name><![CDATA[public_trout_rivers]]></Name>
 		<UserStyle>
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Catch_and_Release_Or_Artificial_Lures_Only_Trout_Waters]]></Name>
-					<Title><![CDATA[Catch_and_Release_Or_Artificial_Lures_Only_Trout_Waters]]></Title>
+					<Title><![CDATA[Catch and Release/Artificial Lures Only Trout Waters]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>WRC_CLASS</ogc:PropertyName>
+							<ogc:PropertyName>wrc_class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Catch and Release/Artificial Lures Only Trout Waters]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -23,10 +23,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[Delayed_Harvest_Trout_Waters]]></Name>
-					<Title><![CDATA[Delayed_Harvest_Trout_Waters]]></Title>
+					<Title><![CDATA[Delayed Harvest Trout Waters]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>WRC_CLASS</ogc:PropertyName>
+							<ogc:PropertyName>wrc_class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Delayed Harvest Trout Waters]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -40,10 +40,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[Hatchery_Supported_Trout_Waters]]></Name>
-					<Title><![CDATA[Hatchery_Supported_Trout_Waters]]></Title>
+					<Title><![CDATA[Hatchery Supported Trout Waters]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>WRC_CLASS</ogc:PropertyName>
+							<ogc:PropertyName>wrc_class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Hatchery Supported Trout Waters]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -57,10 +57,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[Wild_Trout_Waters]]></Name>
-					<Title><![CDATA[Wild_Trout_Waters]]></Title>
+					<Title><![CDATA[Wild Trout Waters]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>WRC_CLASS</ogc:PropertyName>
+							<ogc:PropertyName>wrc_class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Wild Trout Waters]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -74,10 +74,10 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[Wild_Trout_Or_Natural_Bait_Waters]]></Name>
-					<Title><![CDATA[Wild_Trout_Or_Natural_Bait_Waters]]></Title>
+					<Title><![CDATA[Wild Trout/Natural Bait Waters]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>WRC_CLASS</ogc:PropertyName>
+							<ogc:PropertyName>wrc_class</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Wild Trout/Natural Bait Waters]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

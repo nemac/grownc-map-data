@@ -6,11 +6,11 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Populated_Places_Esri]]></Name>
-					<Title><![CDATA[Populated_Places_Esri]]></Title>
+					<Title><![CDATA[Populated Places Esri]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Populated_Places_Esri.png" ></OnlineResource>
+								<OnlineResource xlink:type="simple" xlink:href="../msconfig/cmapicons/Populated_Places_Esri.png" ></OnlineResource>
 								<Format>image/png</Format>
 							</ExternalGraphic>
 						</Graphic>

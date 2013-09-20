@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Major_Lakes]]></Name>
-					<Title><![CDATA[Major_Lakes]]></Title>
+					<Title><![CDATA[Major Lakes]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#97dbf2</CssParameter>
