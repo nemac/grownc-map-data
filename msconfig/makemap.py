@@ -40,6 +40,9 @@ def openMapfileForWriting(filename):
     
 ### Beginning of run-time code -------************************************
 
+os.system("chmod a+w ../var/log");
+os.system("chmod a+w ../var/log/*.log > /dev/null 2>&1");
+os.system("chmod g-w ../html/*");
 
 ###
 ### Create the vlayers.map file:
