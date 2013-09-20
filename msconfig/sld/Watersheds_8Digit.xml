@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Watersheds_8Digit]]></Name>
-					<Title><![CDATA[Watersheds_8Digit]]></Title>
+					<Title><![CDATA[Watersheds 8Digit]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#c7fcfa</CssParameter>

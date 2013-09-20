@@ -9,7 +9,7 @@
 					<Title><![CDATA[Cold Mountain]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Cold Mountain]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -30,7 +30,7 @@
 					<Title><![CDATA[Dupont State Forest]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Dupont State Forest]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -51,7 +51,7 @@
 					<Title><![CDATA[Green River]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Green River]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -72,7 +72,7 @@
 					<Title><![CDATA[Nantahala]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Nantahala]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -93,7 +93,7 @@
 					<Title><![CDATA[Pisgah]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Pisgah]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -114,7 +114,7 @@
 					<Title><![CDATA[Sandymush]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Sandymush]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -135,7 +135,7 @@
 					<Title><![CDATA[Toxaway]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>GML_HAB</ogc:PropertyName>
+							<ogc:PropertyName>gml_hab</ogc:PropertyName>
 							<ogc:Literal><![CDATA[Toxaway]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

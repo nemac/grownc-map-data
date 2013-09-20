@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Major_Rivers]]></Name>
-					<Title><![CDATA[Major_Rivers]]></Title>
+					<Title><![CDATA[Major Rivers]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#0000ff</CssParameter>

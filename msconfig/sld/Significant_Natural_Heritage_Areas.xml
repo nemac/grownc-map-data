@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Significant_Natural_Heritage_Areas]]></Name>
-					<Title><![CDATA[Significant_Natural_Heritage_Areas]]></Title>
+					<Title><![CDATA[Significant Natural Heritage Areas]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#aaff00</CssParameter>

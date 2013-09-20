@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[State_Owned_Lands]]></Name>
-					<Title><![CDATA[State_Owned_Lands]]></Title>
+					<Title><![CDATA[State Owned Lands]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#a87000</CssParameter>

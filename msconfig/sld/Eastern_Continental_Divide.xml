@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Eastern_Continental_Divide]]></Name>
-					<Title><![CDATA[Eastern_Continental_Divide]]></Title>
+					<Title><![CDATA[Eastern Continental Divide]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#734c00</CssParameter>

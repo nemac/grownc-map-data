@@ -17,12 +17,139 @@
   </images>
   <mapviews>
     <view name="GroWNC" label="GroWNC" selected="true">
-      <viewGroup name="Built" />
+      <viewGroup name="Political_Boundaries" />
+	  <viewGroup name="Built" />
+	  <viewGroup name="Economic" />
+	  <viewGroup name="Human" />
       <viewGroup name="Natural" />
     </view>
   </mapviews>
 <wmsLayers>
-  <wmsGroup gid="G01" name="Built" label="Built">
+  <wmsGroup gid="G01" name="Political_Boundaries" label="Political Boundaries and Locations">
+    <wmsSubgroup label="Political Boundaries and Locations">
+      <wmsLayer
+	 lid="PAA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/County_Seats.xml"
+	 srs="EPSG:3785"
+	 layers="county_seats"
+	 styles="default"
+	 identify="true"
+	 name="County Seats"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/County_Seats.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=county_seats&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAB"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Populated_Places_Esri.xml"
+	 srs="EPSG:3785"
+	 layers="populated_places_esri"
+	 styles="default"
+	 identify="true"
+	 name="Populated Places Esri"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Populated_Places_Esri.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=populated_places_esri&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+      <wmsLayer
+	 lid="PAC"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Communities_Other.xml"
+	 srs="EPSG:3785"
+	 layers="communities_other"
+	 styles="default"
+	 identify="true"
+	 name="Communities Other"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Communities_Other.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=communities_other&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAD"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Communities_Incorporated.xml"
+	 srs="EPSG:3785"
+	 layers="communities_incorporated"
+	 styles="default"
+	 identify="true"
+	 name="Communities Incorporated"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Communities_Incorporated.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=communities_incorporated&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAE"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Census_Tracts_2010.xml"
+	 srs="EPSG:3785"
+	 layers="census_tracts_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census Tracts 2010"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Census_Tracts_2010.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=census_tracts_2010&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAF"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Census_Blocks_2010.xml"
+	 srs="EPSG:3785"
+	 layers="census_blocks_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census Blocks 2010"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Census_Blocks_2010.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=census_blocks_2010&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 	
+      <wmsLayer
+	 lid="PAG"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Census_Block_Groups_2010.xml"
+	 srs="EPSG:3785"
+	 layers="census_block_groups_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census Block Groups 2010"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Census_Block_Groups_2010.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=census_block_groups_2010&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAH"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/ZIP_Codes.xml"
+	 srs="EPSG:3785"
+	 layers="zip_codes"
+	 styles="default"
+	 identify="true"
+	 name="ZIP Codes"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/ZIP_Codes.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=zip_codes&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	  <wmsLayer
+	 lid="PAL"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/County_Boundaries.xml"
+	 srs="EPSG:3785"
+	 layers="county_boundaries"
+	 styles="default"
+	 identify="true"
+	 name="County Boundaries"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/County_Boundaries.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=county_boundaries&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAI"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Municipal_Boundaries.xml"
+	 srs="EPSG:3785"
+	 layers="municipal_boundaries"
+	 styles="default"
+	 identify="true"
+	 name="Municipal Boundaries"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Municipal_Boundaries.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=municipal_boundaries&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAJ"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/State_Owned_Lands.xml"
+	 srs="EPSG:3785"
+	 layers="state_owned_lands"
+	 styles="default"
+	 identify="true"
+	 name="State Owned Lands"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/State_Owned_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=state_owned_lands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="PAK"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Federal_Lands.xml"
+	 srs="EPSG:3785"
+	 layers="federal_lands"
+	 styles="default"
+	 identify="true"
+	 name="Federal Lands"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Federal_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=federal_lands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	</wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G02" name="Built" label="Built">
     <wmsSubgroup label="Transportation">
       <wmsLayer
 	 lid="BTAR"
@@ -98,7 +225,109 @@
 	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 
 	</wmsSubgroup>
   </wmsGroup>
-  <wmsGroup gid="G02" name="Natural" label="Natural">
+  <wmsGroup gid="G03" name="Economic" label="Economic">
+    <wmsSubgroup label="Gas Stations">
+      <wmsLayer
+	 lid="EAA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/County_Seats.xml"
+	 srs="EPSG:3785"
+	 layers="county_seats"
+	 styles="default"
+	 identify="true"
+	 name="County Seats"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/County_Seats.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=county_seats&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	</wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G04" name="Human" label="Human">
+    <wmsSubgroup label="Culture">
+      <wmsLayer
+	 lid="HCAA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Public_Trout_Rivers.xml"
+	 srs="EPSG:3785"
+	 layers="public_trout_rivers"
+	 styles="default"
+	 identify="true"
+	 name="Public Trout Rivers"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Public_Trout_Rivers.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=public_trout_rivers&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="HCAB"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Game_Lands.xml"
+	 srs="EPSG:3785"
+	 layers="game_lands"
+	 styles="default"
+	 identify="true"
+	 name="Game Lands"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Game_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=game_lands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 	 
+	</wmsSubgroup>
+	<wmsSubgroup label="Education">
+      <wmsLayer
+	 lid="HEAA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Public_Schools.xml"
+	 srs="EPSG:3785"
+	 layers="public_schools"
+	 styles="default"
+	 identify="true"
+	 name="Public Schools"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Public_Schools.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=public_schools&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="HEAB"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Private_Schools.xml"
+	 srs="EPSG:3785"
+	 layers="private_schools"
+	 styles="default"
+	 identify="true"
+	 name="Private Schools"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Private_Schools.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=private_schools&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="HEAC"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Colleges_Universities.xml"
+	 srs="EPSG:3785"
+	 layers="colleges_universities"
+	 styles="default"
+	 identify="true"
+	 name="Colleges Universities"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Colleges_Universities.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=colleges_universities&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	</wmsSubgroup>
+	<wmsSubgroup label="Health">
+      <wmsLayer
+	 lid="HHAA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Hospitals.xml"
+	 srs="EPSG:3785"
+	 layers="hospitals"
+	 styles="default"
+	 identify="true"
+	 name="Hospitals"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Hospitals.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=hospitals&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="HHAB"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Medical_Facilities.xml"
+	 srs="EPSG:3785"
+	 layers="medical_facilities"
+	 styles="default"
+	 identify="true"
+	 name="Medical_Facilities"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Medical_Facilities.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=medical_facilities&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	
+      <wmsLayer
+	 lid="HHAC"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Public_Health_Centers.xml"
+	 srs="EPSG:3785"
+	 layers="public_health_centers"
+	 styles="default"
+	 identify="true"
+	 name="Public Health Centers"
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Public_Health_Centers.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=public_health_centers&amp;VERSION=1.1.1&amp;FORMAT=image/png"/> 	 
+	</wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G05" name="Natural" label="Natural">
    <wmsSubgroup label="Ecosystems">
       <wmsLayer
 	  lid="NEA"
@@ -122,26 +351,26 @@
 	  identify="true"
 	  name="Landslide Locations"
 	  legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Landslide_Locations.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=landslide_locations&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
-        <wmsLayer
-	    lid="NGB"
-	    visible="false"
-	    url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Geologic_Faults.xml"
-	    srs="EPSG:3785"
-	    layers="geologic_faults"
-	    styles="default"
-	    identify="true"
-	    name="Geologic Faults"
-	    legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Geologic_Faults.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geologic_faults&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
 	  <wmsLayer
-	      lid="NGC"
-	      visible="false"
-	      url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Geology.xml"
-	      srs="EPSG:3785"
-	      layers="geology"
-	      styles="default"
-	      identify="true"
-	      name="Geology"
-	      legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Geology.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geology&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	  lid="NGB"
+	  visible="false"
+	  url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Geologic_Faults.xml"
+	  srs="EPSG:3785"
+	  layers="geologic_faults"
+	  styles="default"
+	  identify="true"
+	  name="Geologic Faults"
+	  legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Geologic_Faults.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geologic_faults&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	  <wmsLayer
+	  lid="NGC"
+	  visible="false"
+	  url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Geology.xml"
+	  srs="EPSG:3785"
+	  layers="geology"
+	  styles="default"
+	  identify="true"
+	  name="Geology"
+	  legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Geology.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geology&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
    </wmsSubgroup> 
    <wmsSubgroup label="Topography">
       <wmsLayer
