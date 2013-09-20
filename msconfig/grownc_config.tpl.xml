@@ -224,6 +224,18 @@
 	 name="Dams All"
 	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 
 	</wmsSubgroup>
+	<wmsSubgroup label="Land">
+      <wmsLayer
+	 lid="BLA"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="tree_cover"
+	 styles="default"
+	 identify="true"
+	 name="Tree Cover"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 
+	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Economic" label="Economic">
     <wmsSubgroup label="Gas Stations">

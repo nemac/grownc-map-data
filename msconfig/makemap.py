@@ -51,3 +51,13 @@ f_new.write( template.render( {
             'SERVICE_URL'  : "%s/%s" % (SERVER_URL, "vlayers")
             } ) )
 f_new.close()
+
+###
+### Create the rlayers.map file:
+###
+template = Template("rlayers.tpl.map")
+f_new = openMapfileForWriting("rlayers.map")
+f_new.write( template.render( {
+            'SERVICE_URL'  : "%s/%s" % (SERVER_URL, "rlayers")
+            } ) )
+f_new.close()
