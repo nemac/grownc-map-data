@@ -269,4 +269,455 @@ MAP
             "gml_include_items"  "all"
         END  # end METADATA
     END #			
+
+    #Natural Section------------------------------------------------------------
+    LAYER # 
+        NAME eastern_continental_divide
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from eastern_continental_divide"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "eastern_continental_divide"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "eastern_continental_divide"
+            "wms_abstract"         "eastern_continental_divide"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME floodplains_500yr
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from floodplains_500yr"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "floodplains_500yr"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "floodplains_500yr"
+            "wms_abstract"         "floodplains_500yr"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME geologic_faults
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from geologic_faults"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "geologic_faults"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "geologic_faults"
+            "wms_abstract"         "geologic_faults"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME geology
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from geology"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "geology"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "geology"
+            "wms_abstract"         "geology"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME hqw_orw
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from hqw_orw"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "hqw_orw"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "hqw_orw"
+            "wms_abstract"         "hqw_orw"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME landslide_locations
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from landslide_locations"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "landslide_locations"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "landslide_locations"
+            "wms_abstract"         "landslide_locations"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME major_lakes
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from major_lakes"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "major_lakes"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "major_lakes"
+            "wms_abstract"         "major_lakes"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME major_rivers
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from major_rivers"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "major_rivers"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "major_rivers"
+            "wms_abstract"         "major_rivers"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME managed_areas
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from managed_areas"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "managed_areas"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "managed_areas"
+            "wms_abstract"         "managed_areas"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME significant_natural_heritage_areas
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from significant_natural_heritage_areas"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "significant_natural_heritage_areas"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "significant_natural_heritage_areas"
+            "wms_abstract"         "significant_natural_heritage_areas"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME streams_24k
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from streams_24k"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             LINE
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "streams_24k"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "streams_24k"
+            "wms_abstract"         "streams_24k"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME waterbodies
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from waterbodies"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "waterbodies"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "waterbodies"
+            "wms_abstract"         "waterbodies"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME watersheds_12digit
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from watersheds_12digit"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "watersheds_12digit"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "watersheds_12digit"
+            "wms_abstract"         "watersheds_12digit"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME watersheds_8digit
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from watersheds_8digit"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "watersheds_8digit"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "watersheds_8digit"
+            "wms_abstract"         "watersheds_8digit"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME watersheds_ws
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from watersheds_ws"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "watersheds_ws"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "watersheds_ws"
+            "wms_abstract"         "watersheds_ws"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer
+    
+    LAYER # 
+        NAME wetlands
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from wetlands"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POLYGON
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "wetlands"
+            STYLE
+                #COLOR        232 232 232
+                OUTLINECOLOR 0 0 0 
+            END
+        END
+        METADATA
+            "wms_title"            "wetlands"
+            "wms_abstract"         "wetlands"
+            "gml_include_items"    "all"
+        END  # end METADATA
+    END # end Layer	
+
+
 END

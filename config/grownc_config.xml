@@ -101,17 +101,175 @@
   <wmsGroup gid="G02" name="Natural" label="Natural">
    <wmsSubgroup label="Ecosystems">
       <wmsLayer
-	 lid="AAB"
-	 visible="false"
-	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true"
-	 srs="EPSG:3785"
-	 layers="municipal_boundaries"
-	 styles="default"
-	 identify="true"
-	 name="municipal_boundaries"
-	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=municipal_boundaries&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
-	</wmsSubgroup> 
-  </wmsGroup>
+	  lid="NEA"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Significant_Natural_Heritage_Areas.xml"
+	  srs="EPSG:3785"
+	  layers="significant_natural_heritage_areas"
+	  styles="default"
+	  identify="true"
+	  name="Significant Natural Heritage Areas"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Significant_Natural_Heritage_Areas.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=significant_natural_heritage_areas&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+   </wmsSubgroup> 
+      <wmsSubgroup label="Geology">
+      <wmsLayer
+	  lid="NGA"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Landslide_Locations.xml"
+	  srs="EPSG:3785"
+	  layers="landslide_locations"
+	  styles="default"
+	  identify="true"
+	  name="Landslide Locations"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Landslide_Locations.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=landslide_locations&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+        <wmsLayer
+	    lid="NGB"
+	    visible="false"
+	    url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Geologic_Faults.xml"
+	    srs="EPSG:3785"
+	    layers="geologic_faults"
+	    styles="default"
+	    identify="true"
+	    name="Geologic Faults"
+	    legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Geologic_Faults.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geologic_faults&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	  <wmsLayer
+	      lid="NGC"
+	      visible="false"
+	      url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Geology.xml"
+	      srs="EPSG:3785"
+	      layers="geology"
+	      styles="default"
+	      identify="true"
+	      name="Geology"
+	      legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Geology.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=geology&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+   </wmsSubgroup> 
+   <wmsSubgroup label="Topography">
+      <wmsLayer
+	  lid="NTA"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Eastern_Continental_Divide.xml"
+	  srs="EPSG:3785"
+	  layers="eastern_continental_divide"
+	  styles="default"
+	  identify="true"
+	  name="Eastern Continental Divide"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Eastern_Continental_Divide.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=eastern_continental_divide&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+   </wmsSubgroup>
+   <wmsSubgroup label="Land Cover">
+      <wmsLayer
+	  lid="NLA"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Managed_Areas.xml"
+	  srs="EPSG:3785"
+	  layers="managed_areas"
+	  styles="default"
+	  identify="true"
+	  name="Managed Areas"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Managed_Areas.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=managed_areas&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+   </wmsSubgroup>
+   <wmsSubgroup label="Water">
+      <wmsLayer
+	  lid="NWA"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Floodplains_500yr.xml"
+	  srs="EPSG:3785"
+	  layers="floodplains_500yr"
+	  styles="default"
+	  identify="true"
+	  name="Floodplains 500yr"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Floodplains_500yr.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=floodplains_500yr&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWB"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/HQW_ORW.xml"
+	  srs="EPSG:3785"
+	  layers="hqw_orw"
+	  styles="default"
+	  identify="true"
+	  name="HQW ORW"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/HQW_ORW.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=hqw_orw&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWC"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Major_Lakes.xml"
+	  srs="EPSG:3785"
+	  layers="major_lakes"
+	  styles="default"
+	  identify="true"
+	  name="Major Lakes"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Major_Lakes.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=major_lakes&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWD"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Major_Rivers.xml"
+	  srs="EPSG:3785"
+	  layers="major_rivers"
+	  styles="default"
+	  identify="true"
+	  name="Major Rivers"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Major_Rivers.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=major_rivers&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWE"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Streams_24K.xml"
+	  srs="EPSG:3785"
+	  layers="streams_24k"
+	  styles="default"
+	  identify="true"
+	  name="Streams 24K"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Streams_24K.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=streams_24k&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWF"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Waterbodies.xml"
+	  srs="EPSG:3785"
+	  layers="waterbodies"
+	  styles="default"
+	  identify="true"
+	  name="Waterbodies"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Waterbodies.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=waterbodies&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWG"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_12Digit.xml"
+	  srs="EPSG:3785"
+	  layers="watersheds_12digit"
+	  styles="default"
+	  identify="true"
+	  name="Watersheds 12 Digit"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_12Digit.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=watersheds_12digit&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWH"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_8Digit.xml"
+	  srs="EPSG:3785"
+	  layers="watersheds_8digit"
+	  styles="default"
+	  identify="true"
+	  name="Watersheds 8 Digit"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_8Digit.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=watersheds_8digit&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWI"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_WS.xml"
+	  srs="EPSG:3785"
+	  layers="watersheds_ws"
+	  styles="default"
+	  identify="true"
+	  name="Watersheds WS"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_WS.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=watersheds_ws&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	  lid="NWJ"
+	  visible="false"
+	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Wetlands.xml"
+	  srs="EPSG:3785"
+	  layers="wetlands"
+	  styles="default"
+	  identify="true"
+	  name="Wetlands"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Wetlands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=wetlands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/> 
+   </wmsSubgroup>
+ </wmsGroup>
 </wmsLayers>
   <tools>
     <tool name="Print" label="Print Map" />
