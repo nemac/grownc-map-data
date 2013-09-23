@@ -20,6 +20,7 @@
       <viewGroup name="Political_Boundaries" />
 	  <viewGroup name="Built" />
 	  <viewGroup name="Economic" />
+	  <viewGroup name="Growth Scenarios and Models" />
 	  <viewGroup name="Human" />
       <viewGroup name="Natural" />
     </view>
@@ -149,7 +150,7 @@
 	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Federal_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=federal_lands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
 	</wmsSubgroup>
   </wmsGroup>
-  <wmsGroup gid="G02" name="Built" label="Built">
+  <wmsGroup gid="G02" name="Built" label="Built" selected="true">
     <wmsSubgroup label="Transportation">
       <wmsLayer
 	 lid="BTAR"
@@ -235,6 +236,136 @@
 	 identify="true"
 	 name="Tree Cover"
 	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 
+      <wmsLayer
+	 lid="BLLC06"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="landcover_06"
+	 styles="default"
+	 identify="true"
+	 name="Land Cover 2006"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 
+      <wmsLayer
+	 lid="BLIP06"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="impsurf_06"
+	 styles="default"
+	 identify="true"
+	 name="Impervious Surfaces 2006"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 
+      <wmsLayer
+	 lid="BLLU76"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_76"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1976"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU85"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_85"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1985"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU96"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_96"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1996"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU06"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_06"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2006"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU10"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_10"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2010"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU15"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_15"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2015"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU20"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_20"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2020"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU25"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_25"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2025"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+      <wmsLayer
+	 lid="BLLU30"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="uncc_30"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2030"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 
+      <wmsLayer
+	 lid="BLHD00"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="hous_den_00"
+	 styles="default"
+	 identify="true"
+	 name="Housing Density 2000"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	
+      <wmsLayer
+	 lid="BLHD30"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="hous_den_30"
+	 styles="default"
+	 identify="true"
+	 name="Housing Density 2030"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>		 
 	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Economic" label="Economic">
@@ -249,6 +380,50 @@
 	 identify="true"
 	 name="County Seats"
 	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/County_Seats.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=county_seats&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	</wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G07" name="Growth Scenarios and Models" label="Growth Scenarios and Models">
+    <wmsSubgroup label="Suitability">
+      <wmsLayer
+	 lid="GSMSSF"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="sfsuit"
+	 styles="default"
+	 identify="true"
+	 name="Single Family Suitability"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 
+      <wmsLayer
+	 lid="GSMSMF"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="mfsuit"
+	 styles="default"
+	 identify="true"
+	 name="Multi-Family Suitability"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 	 
+      <wmsLayer
+	 lid="GSMISS"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="indsuit"
+	 styles="default"
+	 identify="true"
+	 name="Industrial Suitability"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 	 
+      <wmsLayer
+	 lid="GSMSCS"
+	 visible="false"
+	 url="http://rain.nemac.org/~derek/grownc/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="comsuit"
+	 styles="default"
+	 identify="true"
+	 name="Commercial Suitability"
+	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Dams_All.png"/>	 	 	 
 	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G04" name="Human" label="Human">
