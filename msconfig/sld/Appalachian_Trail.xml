@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Appalachian_Trail]]></Name>
-					<Title><![CDATA[Appalachian_Trail]]></Title>
+					<Title><![CDATA[Appalachian Trail]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#e6e600</CssParameter>

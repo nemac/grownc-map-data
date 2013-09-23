@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Appalachian_Trail_Parking]]></Name>
-					<Title><![CDATA[Appalachian_Trail_Parking]]></Title>
+					<Title><![CDATA[Appalachian Trail Parking]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

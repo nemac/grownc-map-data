@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Abandoned_Railroads]]></Name>
-					<Title><![CDATA[Abandoned_Railroads]]></Title>
+					<Title><![CDATA[Abandoned Railroads]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#ff0000</CssParameter>

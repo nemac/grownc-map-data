@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Federal_Lands]]></Name>
-					<Title><![CDATA[Federal_Lands]]></Title>
+					<Title><![CDATA[Federal Lands]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#38a800</CssParameter>

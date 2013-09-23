@@ -6,11 +6,11 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Hydro_Dams]]></Name>
-					<Title><![CDATA[Hydro_Dams]]></Title>
+					<Title><![CDATA[Hydro Dams]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Hydro_Dams.png" ></OnlineResource>
+								<OnlineResource xlink:type="simple" xlink:href="../msconfig/cmapicons/Hydro_Dams.png" ></OnlineResource>
 								<Format>image/png</Format>
 							</ExternalGraphic>
 						</Graphic>
