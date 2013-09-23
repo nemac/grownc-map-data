@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Blue_Ridge_Parkway]]></Name>
-					<Title><![CDATA[Blue_Ridge_Parkway]]></Title>
+					<Title><![CDATA[Blue Ridge Parkway]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#8f1500</CssParameter>

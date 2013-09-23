@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Managed_Areas]]></Name>
-					<Title><![CDATA[Managed_Areas]]></Title>
+					<Title><![CDATA[Managed Areas]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#38a800</CssParameter>

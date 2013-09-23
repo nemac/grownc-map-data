@@ -427,11 +427,11 @@ MAP
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "Consensus_Growth_Areas"
+            NAME "Consensus Growth Areas"
             STYLE
                 #SYMBOL 'circle'
                 #SIZE 5
-                COLOR 255 0 0  
+                COLOR 255 255 115 
             END
         END		
         METADATA
@@ -680,7 +680,7 @@ MAP
         END
         CONNECTIONTYPE   postgis
         CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
-        DATA             "the_geom from Water_Tanks"
+        DATA             "the_geom from water_tanks"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
         TYPE             POINT
@@ -698,6 +698,35 @@ MAP
         METADATA
             "wms_title"          "Water_Tanks"
             "wms_abstract"       "Water_Tanks"
+            "gml_include_items"  "all"
+        END  # end METADATA
+    END #
+	
+	LAYER # 
+        NAME EMS_Locations
+        PROJECTION
+            "init=epsg:4326"
+        END
+        CONNECTIONTYPE   postgis
+        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        DATA             "the_geom from ems_locations"
+        EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
+        STATUS           OFF
+        TYPE             POINT
+        DUMP             TRUE
+        HEADER           ./templates/layer_query_header.html
+        TEMPLATE         ./templates/layer_query_body.html
+        CLASS
+            NAME "EMS_Locations"
+            STYLE
+                #SYMBOL 'circle'
+                #SIZE 5
+                COLOR 255 0 0  
+            END
+        END		
+        METADATA
+            "wms_title"          "EMS_Locations"
+            "wms_abstract"       "EMS_Locations"
             "gml_include_items"  "all"
         END  # end METADATA
     END #
@@ -882,7 +911,7 @@ MAP
         DATA             "the_geom from landslide_locations"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
-        TYPE             POLYGON
+        TYPE             POINT
         DUMP             TRUE
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
@@ -1385,7 +1414,7 @@ MAP
         END
         CONNECTIONTYPE   postgis
         CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
-        DATA             "the_geom from prime_industrial_land"
+        DATA             "the_geom from prime_industrial_lands"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
         TYPE             POLYGON

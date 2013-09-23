@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Major_Roads]]></Name>
-					<Title><![CDATA[Major_Roads]]></Title>
+					<Title><![CDATA[Major Roads]]></Title>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke" >#000000</CssParameter>

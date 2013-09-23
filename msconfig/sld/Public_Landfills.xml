@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Public_Landfills]]></Name>
-					<Title><![CDATA[Public_Landfills]]></Title>
+					<Title><![CDATA[Public Landfills]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

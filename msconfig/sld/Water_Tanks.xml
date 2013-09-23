@@ -6,11 +6,11 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Water_Tanks]]></Name>
-					<Title><![CDATA[Water_Tanks]]></Title>
+					<Title><![CDATA[Water Tanks]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Water_Tanks.png" ></OnlineResource>
+								<OnlineResource xlink:type="simple" xlink:href="../msconfig/cmapicons/Water_Tanks.png" ></OnlineResource>
 								<Format>image/png</Format>
 							</ExternalGraphic>
 						</Graphic>

@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Dams_All]]></Name>
-					<Title><![CDATA[Dams_All]]></Title>
+					<Title><![CDATA[Dams All]]></Title>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>

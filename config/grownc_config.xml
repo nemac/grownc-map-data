@@ -191,7 +191,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Appalachian Trail"
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Appalachian_Trail.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
 	 lid="BRP"
 	 visible="false"
@@ -253,7 +253,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Appalachian Trail Parking"
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/msconfig/cmapicons/Appalachian_Trail_Parking.png"/>
+	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Appalachian_Trail_Parking.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail_parking&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
 	 lid="BIATS"
 	 visible="false"
@@ -263,7 +263,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Appalachian Trail Shelters"
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/msconfig/cmapicons/Appalachian_Trail_Shelters.png"/>	 	
+	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Appalachian_Trail_Shelters.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail_shelters&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 	
       <wmsLayer
 	 lid="BIDA"
 	 visible="false"
@@ -273,7 +273,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Dams All"
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/msconfig/cmapicons/Dams_All.png"/>	
+	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Dams_All.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=dams_all&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	
       <wmsLayer
 	 lid="BIDB"
 	 visible="false"
@@ -597,13 +597,13 @@
       <wmsLayer
 	 lid="EAA"
 	 visible="false"
-	 url="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Prime_Industrial_Land.xml"
+	 url="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Prime_Industrial_Lands.xml"
 	 srs="EPSG:3785"
 	 layers="Prime_Industrial_Land"
 	 styles="default"
 	 identify="true"
 	 name="Prime Industrial Land"
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Prime_Industrial_Land.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Prime_Industrial_Land&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Prime_Industrial_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Prime_Industrial_Land&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
 	</wmsSubgroup>
 	<wmsSubgroup label="Businesses">
       <wmsLayer

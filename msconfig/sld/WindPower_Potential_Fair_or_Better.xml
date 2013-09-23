@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[WindPower_Potential_Fair_or_Better]]></Name>
-					<Title><![CDATA[WindPower_Potential_Fair_or_Better]]></Title>
+					<Title><![CDATA[Wind Power Potential Fair or Better]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#bed2ff</CssParameter>

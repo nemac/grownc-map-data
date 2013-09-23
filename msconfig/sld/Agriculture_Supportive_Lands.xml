@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <StyledLayerDescriptor xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:gml='http://www.opengis.net/gml' xmlns:ogc='http://www.opengis.net/ogc' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.0.0' xsi:schemaLocation='http://www.opengis.net/sld StyledLayerDescriptor.xsd' xmlns='http://www.opengis.net/sld' >
 	<NamedLayer>
-		<Name><![CDATA[AG_Supportive_Grids_Smoothed]]></Name>
+		<Name><![CDATA[Agriculture_Supportive_Lands]]></Name>
 		<UserStyle>
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[AG_Supportive_Grids_Smoothed]]></Name>
-					<Title><![CDATA[AG_Supportive_Grids_Smoothed]]></Title>
+					<Title><![CDATA[Agriculture Supportive Lands]]></Title>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill" >#ffebaf</CssParameter>
