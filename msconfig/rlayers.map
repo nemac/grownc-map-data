@@ -57,7 +57,7 @@ MAP
             "ows_enable_request"     "*"
             "wms_title"              "rlayers"
             "wms_abstract"           "rlayers"
-            "wms_onlineresource"     "http://rain.nemac.org/~mwhutchi/grownc/rlayers"
+            "wms_onlineresource"     "http://rain.nemac.org/~derek/grownc/rlayers"
             "wms_srs"                "EPSG:4326 EPSG:2163 EPSG:3785 EPSG:900913"
         END
     END
@@ -593,5 +593,201 @@ MAP
 			"gml_value_0_alias"     "comsuit"
         END  # end METADATA
     END # end LAYER				
-
+    LAYER
+        NAME dem
+        PROJECTION
+			"proj=lcc"
+			"lat_1=36.16666666666666"
+			"lat_2=34.33333333333334"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2192024384"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/dem.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/dem.cmap"
+        METADATA
+            "wms_title"             "dem"
+            "wms_abstract"          "dem"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "dem"
+        END  # end METADATA
+    END # end LAYER				
+    LAYER
+        NAME hillshade
+        PROJECTION
+			"proj=lcc"
+			"lat_1=36.16666666666666"
+			"lat_2=34.33333333333334"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2192024384"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/hillshade.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/hillshade.cmap"
+        METADATA
+            "wms_title"             "hillshade"
+            "wms_abstract"          "hillshade"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "hillshade"
+        END  # end METADATA
+    END # end LAYER				
+    LAYER
+        NAME slope_20
+        PROJECTION
+			"proj=lcc"
+			"lat_1=36.16666666666666"
+			"lat_2=34.33333333333334"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2192024384"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/slope_20.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/slope_20.cmap"
+        METADATA
+            "wms_title"             "slope_20"
+            "wms_abstract"          "slope_20"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "slope_20"
+        END  # end METADATA
+    END # end LAYER					
+    LAYER
+        NAME p_ann_81_10
+        PROJECTION
+			"proj=longlat"
+			"ellps=WGS84"
+			"datum=WGS84"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/p_ann_81_10.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/p_ann_81_10.cmap"
+        METADATA
+            "wms_title"             "p_ann_81_10"
+            "wms_abstract"          "p_ann_81_10"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "p_ann_81_10"
+        END  # end METADATA
+    END # end LAYER					
+    LAYER
+        NAME ppt_dry_81_10
+        PROJECTION
+			"proj=longlat"
+			"ellps=WGS84"
+			"datum=WGS84"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/ppt_dry_81_10.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/ppt_dry_81_10.cmap"
+        METADATA
+            "wms_title"             "ppt_dry_81_10"
+            "wms_abstract"          "ppt_dry_81_10"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "ppt_dry_81_10"
+        END  # end METADATA
+    END # end LAYER					
+    LAYER
+        NAME ppt_wet_81_10
+        PROJECTION
+			"proj=longlat"
+			"ellps=WGS84"
+			"datum=WGS84"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/ppt_wet_81_10.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/ppt_wet_81_10.cmap"
+        METADATA
+            "wms_title"             "ppt_wet_81_10"
+            "wms_abstract"          "ppt_wet_81_10"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "ppt_wet_81_10"
+        END  # end METADATA
+    END # end LAYER					
+    LAYER
+        NAME tmax_an_81_10
+        PROJECTION
+			"proj=longlat"
+			"ellps=WGS84"
+			"datum=WGS84"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/tmax_an_81_10.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/tmax_an_81_10.cmap"
+        METADATA
+            "wms_title"             "tmax_an_81_10"
+            "wms_abstract"          "tmax_an_81_10"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "tmax_an_81_10"
+        END  # end METADATA
+    END # end LAYER					
+    LAYER
+        NAME tmin_an_81_10
+        PROJECTION
+			"proj=longlat"
+			"ellps=WGS84"
+			"datum=WGS84"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/tmin_an_81_10.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/tmin_an_81_10.cmap"
+        METADATA
+            "wms_title"             "tmin_an_81_10"
+            "wms_abstract"          "tmin_an_81_10"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "tmin_an_81_10"
+        END  # end METADATA
+    END # end LAYER						
 END # end MAP

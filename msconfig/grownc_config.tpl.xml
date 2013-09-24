@@ -367,7 +367,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Tree Cover"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/tree_cover.png"/>	 
      <wmsLayer
 	  lid="BLB"
 	  visible="false"
@@ -459,7 +459,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Cover 2006"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/landcover_06.png"/>	 		 	 
       <wmsLayer
 	 lid="BLIP06"
 	 visible="false"
@@ -469,7 +469,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Impervious Surfaces 2006"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/impsurf_06.png"/>	 		 	 	 
       <wmsLayer
 	 lid="BLLU76"
 	 visible="false"
@@ -489,7 +489,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1985"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_85.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU96"
 	 visible="false"
@@ -499,7 +499,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1996"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_96.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU06"
 	 visible="false"
@@ -509,7 +509,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2006"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_06.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU10"
 	 visible="false"
@@ -519,7 +519,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2010"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_10.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU15"
 	 visible="false"
@@ -529,7 +529,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2015"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_15.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU20"
 	 visible="false"
@@ -539,7 +539,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2020"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_20.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU25"
 	 visible="false"
@@ -549,7 +549,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2025"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_25.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU30"
 	 visible="false"
@@ -559,7 +559,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2030"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_30.png"/>	 
       <wmsLayer
 	 lid="BLHD00"
 	 visible="false"
@@ -569,7 +569,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Housing Density 2000"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/hous_den_00.png"/>	
       <wmsLayer
 	 lid="BLHD30"
 	 visible="false"
@@ -579,7 +579,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Housing Density 2030"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/hous_den_30.png"/>
 	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Economic" label="Economic">
@@ -639,7 +639,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Single Family Suitability"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/sfsuit.png"/>	 
       <wmsLayer
 	 lid="GSMSMF"
 	 visible="false"
@@ -649,7 +649,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Multi-Family Suitability"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/mfsuit.png"/>	 	 
       <wmsLayer
 	 lid="GSMISS"
 	 visible="false"
@@ -659,7 +659,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Industrial Suitability"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/indsuit.png"/>	 	 
       <wmsLayer
 	 lid="GSMSCS"
 	 visible="false"
@@ -669,7 +669,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Commercial Suitability"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/comsuit.png"/>	 	 	 
 	</wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G04" name="Human" label="Human">
@@ -853,7 +853,7 @@
 	  name="Significant Natural Heritage Areas"
 	  legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Significant_Natural_Heritage_Areas.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=significant_natural_heritage_areas&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
    </wmsSubgroup> 
-      <wmsSubgroup label="Geology">
+   <wmsSubgroup label="Geology">
       <wmsLayer
 	  lid="NGA"
 	  visible="false"
@@ -906,6 +906,36 @@
 	  identify="true"
 	  name="Viewsheds AT BRP"
 	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Viewsheds_AT_BRP.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Viewsheds_AT_BRP&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+      <wmsLayer
+	 lid="NTDEM"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="dem"
+	 styles="default"
+	 identify="true"
+	 name="Elevation"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/dem.png"/>	 
+      <wmsLayer
+	 lid="NTDHS"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="hillshade"
+	 styles="default"
+	 identify="true"
+	 name="Terrain"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/hillshade.png"/>	 
+      <wmsLayer
+	 lid="NTSLP"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="slope_20"
+	 styles="default"
+	 identify="true"
+	 name="Slope"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/slope_20.png"/>	 	 
    </wmsSubgroup>
    <wmsSubgroup label="Water">
       <wmsLayer
@@ -1019,6 +1049,58 @@
 	  name="Wetlands"
 	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Wetlands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=wetlands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/> 
    </wmsSubgroup>
+   <wmsSubgroup label="Weather and Climate">
+      <wmsLayer
+	 lid="NWCAAP81"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="p_ann_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Precip 1981-2010"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/p_ann_81_10.png"/>	 
+      <wmsLayer
+	 lid="NWCADRY81"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="ppt_dry_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Precip, Sept-Feb 1981-2010"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/ppt_dry_81_10.png"/>	 
+      <wmsLayer
+	 lid="NWCPPTY"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="ppt_wet_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Precip, Mar-Aug 1981-2010"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/ppt_wet_81_10.png"/>	 
+      <wmsLayer
+	 lid="NWCTMAX"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="tmax_an_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Max Temp 1981-2010"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/tmax_an_81_10.png"/>	 
+      <wmsLayer
+	 lid="NWCTMIN"
+	 visible="false"
+	 url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true"
+	 srs="EPSG:3785"
+	 layers="tmin_an_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Min Temp 1981-2010"
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/tmin_an_81_10.png"/>	 	 
+   </wmsSubgroup> 
  </wmsGroup>
 </wmsLayers>
   <tools>
