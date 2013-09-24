@@ -119,6 +119,7 @@
 	 name="ZIP Codes"
 	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/ZIP_Codes.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=zip_codes&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
 	  <wmsLayer
+	 selected="true" 
 	 lid="PAL"
 	 visible="false"
 	 url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/County_Boundaries.xml"
@@ -171,7 +172,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Abandoned Railroads"
-	 legend="%(SERVER_URL)s/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Abandoned_Railroads.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
 	 lid="BTAP"
 	 visible="false"
@@ -181,7 +182,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Airports"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Airports.png"/>	 
+	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Airports.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=airports&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
       <wmsLayer
 	 lid="BTAT"
 	 visible="false"
