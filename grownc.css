@@ -8,7 +8,6 @@ Global Styles
 body, td, th {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
-    color: #222;
 }
 
 a {
@@ -21,13 +20,14 @@ Header Styles
 */
 #titleBar {
     background: #6c9d30;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-#titlebar h2 {
+#titleBar h2 {
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
     font-weight: bold;
+    font-style: italic;
     letter-spacing: -1px;
 }
 
@@ -54,8 +54,8 @@ Footer Styles
 Phone Portrait
 */
 @media (max-width: 480px) {
-    #titlebar h2 {
-        font-size: 1em;
+    #titleBar {
+        font-size: .6em;
         text-align: center;
     }
 
