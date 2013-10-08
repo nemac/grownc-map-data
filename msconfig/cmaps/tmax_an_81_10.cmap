@@ -1,17 +1,17 @@
 CLASS
-	EXPRESSION ([pixel] >= 54 AND [pixel] <= 60) 
+	EXPRESSION ([pixel] >= 54 AND [pixel] < 61) 
 	COLOR 	     255 255 179
 END
 CLASS
-	EXPRESSION ([pixel] >= 61 AND [pixel] <= 63) 
+	EXPRESSION ([pixel] >= 61 AND [pixel] < 64) 
 	COLOR 	     255 203 92
 END
 CLASS
-	EXPRESSION ([pixel] >= 64 AND [pixel] <= 66) 
+	EXPRESSION ([pixel] >= 64 AND [pixel] < 67) 
 	COLOR 	     252 141 61
 END
 CLASS
-	EXPRESSION ([pixel] >= 67 AND [pixel] <= 69) 
+	EXPRESSION ([pixel] >= 67 AND [pixel] < 70) 
 	COLOR 	     240 59 31
 END
 CLASS

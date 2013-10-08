@@ -172,11 +172,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Abandoned Railroads"
-<<<<<<< HEAD
-	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
-=======
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Abandoned_Railroads.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
->>>>>>> eab1b501e6421b90ab9432afb039fb840516d877
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Abandoned_Railroads.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=abandoned_railroads&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
 	 lid="BTAP"
 	 visible="false"
@@ -186,11 +182,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Airports"
-<<<<<<< HEAD
-	 legend="http://rain.nemac.org/~derek/grownc/msconfig/cmapicons/Airports.png"/>	 
-=======
-	 legend="http://rain.nemac.org/~mwhutchi/grownc/html/vlayers?sld=http://rain.nemac.org/~mwhutchi/grownc/msconfig/sld/Airports.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=airports&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
->>>>>>> eab1b501e6421b90ab9432afb039fb840516d877
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Airports.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=airports&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
       <wmsLayer
 	 lid="BTAT"
 	 visible="false"
