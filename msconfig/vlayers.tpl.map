@@ -1042,7 +1042,7 @@ MAP
     END # end Layer
     
     LAYER # 
-        NAME streams_24k
+        NAME streams
         PROJECTION
             "init=epsg:4326"
         END
@@ -1056,7 +1056,7 @@ MAP
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "streams_24k"
+            NAME "streams"
             STYLE
                 #COLOR        232 232 232
                 OUTLINECOLOR 0 0 0 
@@ -1168,7 +1168,7 @@ MAP
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "watersheds_ws"
+            NAME "Water Supply Watersheds"
             STYLE
                 #COLOR        232 232 232
                 OUTLINECOLOR 0 0 0 
@@ -1718,7 +1718,7 @@ MAP
     END # end Layer
 	
 	LAYER # 
-        NAME Key_Locations_and_Parks_ESRI
+        NAME Key_Locations_and_Parks
         PROJECTION
             "init=epsg:4326"
         END
@@ -1732,15 +1732,15 @@ MAP
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "Key_Locations_and_Parks_ESRI"
+            NAME "Key_Locations_and_Parks"
             STYLE
                 COLOR        232 232 232
                 OUTLINECOLOR 0 0 0 
             END
         END
         METADATA
-            "wms_title"            "Key_Locations_and_Parks_ESRI"
-            "wms_abstract"         "Key_Locations_and_Parks_ESRI"
+            "wms_title"            "Key_Locations_and_Parks"
+            "wms_abstract"         "Key_Locations_and_Parks"
             "gml_include_items"    "all"
         END  # end METADATA
     END # end Layer
@@ -2168,7 +2168,7 @@ MAP
     END # end Layer
 	
 	LAYER # 
-        NAME populated_places_esri
+        NAME populated_places
         PROJECTION
             "init=epsg:4326"
         END
@@ -2182,15 +2182,15 @@ MAP
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
         CLASS
-            NAME "populated_places_esri"
+            NAME "populated_places"
             STYLE
                 COLOR        232 232 232
                 OUTLINECOLOR 0 0 0 
             END
         END
         METADATA
-            "wms_title"            "populated_places_esri"
-            "wms_abstract"         "populated_places_esri"
+            "wms_title"            "populated_places"
+            "wms_abstract"         "populated_places"
             "gml_include_items"    "all"
         END  # end METADATA
     END # end Layer

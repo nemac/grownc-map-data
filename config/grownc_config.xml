@@ -41,13 +41,13 @@
       <wmsLayer
 	 lid="PAB"
 	 visible="false"
-	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Populated_Places_Esri.xml"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Populated_Places.xml"
 	 srs="EPSG:3785"
-	 layers="populated_places_esri"
+	 layers="populated_places"
 	 styles="default"
 	 identify="true"
-	 name="Populated Places Esri"
-	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Populated_Places_Esri.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=populated_places_esri&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
+	 name="Populated Places"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Populated_Places.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=populated_places&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
       <wmsLayer
 	 lid="PAC"
 	 visible="false"
@@ -683,18 +683,18 @@
 	 layers="Camps_Cultural_Features"
 	 styles="default"
 	 identify="true"
-	 name="Camps Cultural Features"
+	 name="Camps and Cultural Features"
 	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Camps_Cultural_Features.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Camps_Cultural_Features&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
 	  <wmsLayer
 	 lid="HCAD"
 	 visible="false"
-	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Key_Locations_and_Parks_ESRI.xml"
+	 url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Key_Locations_and_Parks.xml"
 	 srs="EPSG:3785"
-	 layers="Key_Locations_and_Parks_ESRI"
+	 layers="Key_Locations_and_Parks"
 	 styles="default"
 	 identify="true"
-	 name="Key Locations and Parks ESRI"
-	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Key_Locations_and_Parks_ESRI.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Key_Locations_and_Parks_ESRI&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	 name="Key Locations and Parks"
+	 legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Key_Locations_and_Parks.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=Key_Locations_and_Parks&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
 	  <wmsLayer
 	 lid="HCAE"
 	 visible="false"
@@ -984,11 +984,11 @@
 	  visible="false"
 	  url="http://rain.nemac.org/~derek/grownc/html/vlayers?TRANSPARENT=true&amp;sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Streams_24K.xml"
 	  srs="EPSG:3785"
-	  layers="streams_24k"
+	  layers="streams"
 	  styles="default"
 	  identify="true"
-	  name="Streams 24K"
-	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Streams_24K.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=streams_24k&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	  name="Streams"
+	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Streams_24K.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=streams&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
 	  <wmsLayer
 	  lid="NWK"
 	  visible="false"
@@ -1037,7 +1037,7 @@
 	  layers="watersheds_ws"
 	  styles="default"
 	  identify="true"
-	  name="Watersheds WS"
+	  name="Water Supply Watersheds"
 	  legend="http://rain.nemac.org/~derek/grownc/html/vlayers?sld=http://rain.nemac.org/~derek/grownc/msconfig/sld/Watersheds_WS.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=watersheds_ws&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
       <wmsLayer
 	  lid="NWJ"
