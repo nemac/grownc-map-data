@@ -27,7 +27,7 @@
   </mapviews>
 <wmsLayers>
   <wmsGroup gid="G01" name="Political_Boundaries" label="Political Boundaries and Locations">
-    <wmsSubgroup label="Political Boundaries and Locations">
+    <wmsSubgroup label="Political Boundaries and Locations" selected="true">
       <wmsLayer
 	 lid="PAA"
 	 visible="false"
@@ -161,7 +161,7 @@
 	 legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Federal_Lands.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=federal_lands&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>	 
 	</wmsSubgroup>
   </wmsGroup>
-  <wmsGroup gid="G02" name="Built" label="Built" selected="true">
+  <wmsGroup gid="G02" name="Built" label="Built">
     <wmsSubgroup label="Transportation">
       <wmsLayer
 	 lid="BTAR"
@@ -470,7 +470,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Impervious Surfaces 2006"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/impsurf_06.png"/>	 		 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/impsurf_06_1.png"/>	 		 	 	 
       <wmsLayer
 	 lid="BLLU76"
 	 visible="false"
@@ -480,7 +480,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1976"
-	 legend="%(SERVER_URL)s/msconfig/cmapicons/Dams_All.png"/>	 		 	 	 	 
+	 legend="%(SERVER_URL)s/msconfig/cmapicons/uncc_76.png"/>	 		 	 	 	 
       <wmsLayer
 	 lid="BLLU85"
 	 visible="false"

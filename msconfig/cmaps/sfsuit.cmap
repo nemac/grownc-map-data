@@ -83,62 +83,62 @@ CLASS
     COLOR  230 245 154
 END 
 CLASS
-    EXPRESSION ([pixel] = = 46)
+    EXPRESSION ([pixel] = 46)
     COLOR  218 240 139
 END 
 CLASS
-    EXPRESSION ([pixel] = = 47)
+    EXPRESSION ([pixel] = 47)
     COLOR  204 235 131
 END 
 CLASS
-    EXPRESSION ([pixel] = = 48)
+    EXPRESSION ([pixel] = 48)
     COLOR  188 227 120
 END 
 CLASS
-    EXPRESSION ([pixel] = = 49)
+    EXPRESSION ([pixel] = 49)
     COLOR  172 219 110
 END 
 CLASS
-    EXPRESSION ([pixel] = = 50)
+    EXPRESSION ([pixel] = 50)
     COLOR  158 214 105
 END 
 CLASS
-    EXPRESSION ([pixel] = = 51)
+    EXPRESSION ([pixel] = 51)
     COLOR  138 204 102
 END 
 CLASS
-    EXPRESSION ([pixel] = = 52)
+    EXPRESSION ([pixel] = 52)
     COLOR  119 196 100
 END 
 CLASS
-    EXPRESSION ([pixel] = = 53)
+    EXPRESSION ([pixel] = 53)
     COLOR  101 189 98
 END
 CLASS
-    EXPRESSION ([pixel] = = 54)
+    EXPRESSION ([pixel] = 54)
     COLOR  82 179 93
 END 
 CLASS
-    EXPRESSION ([pixel] = = 55)
+    EXPRESSION ([pixel] = 55)
     COLOR  62 168 89
 END 
 CLASS
-    EXPRESSION ([pixel] = = 56)
+    EXPRESSION ([pixel] = 56)
     COLOR  40 158 83
 END 
 CLASS
-    EXPRESSION ([pixel] = = 57)
+    EXPRESSION ([pixel] = 57)
     COLOR  23 145 76
 END 
 CLASS
-    EXPRESSION ([pixel] = = 58)
+    EXPRESSION ([pixel] = 58)
     COLOR  17 133 71
 END 
 CLASS
-    EXPRESSION ([pixel] = = 59)
+    EXPRESSION ([pixel] = 59)
     COLOR  11 117 62
 END 
 CLASS
-    EXPRESSION ([pixel] = = 60)
+    EXPRESSION ([pixel] = 60)
     COLOR  0 105 56
 END
