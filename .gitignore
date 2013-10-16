@@ -1,2 +1,4 @@
 msconfig/vlayers.map
 config/grownc_config.xml
+*~
+.DS_STORE
