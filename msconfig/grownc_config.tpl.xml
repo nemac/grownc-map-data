@@ -89,6 +89,26 @@
 			</wmsSubgroup>
 		</wmsGroup>
 		<wmsGroup gid="G07" label="Growth Scenarios and Models" name="Growth Scenarios and Models">
+			<wmsSubgroup label="Business As Usual">
+				<wmsLayer identify="true" layers="bauempby15" legend="%(SERVER_URL)s/msconfig/cmapicons/bauempby15_2000.png" lid="GSMBAUEMP" name="Employees" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
+				<wmsLayer identify="true" layers="bauduby5" legend="%(SERVER_URL)s/msconfig/cmapicons/bauduby5_2000.png" lid="GSMBAUDU" name="Homes" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 
+			</wmsSubgroup>
+			<wmsSubgroup label="Economic Prosperity">
+				<wmsLayer identify="true" layers="epempby15" legend="%(SERVER_URL)s/msconfig/cmapicons/epempby15_2000.png" lid="GSMEPEMP" name="Employees" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
+				<wmsLayer identify="true" layers="epduby5" legend="%(SERVER_URL)s/msconfig/cmapicons/epduby5_2000.png" lid="GSMEPUDU" name="Homes" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 
+			</wmsSubgroup>
+			<wmsSubgroup label="Efficient Growth">
+				<wmsLayer identify="true" layers="egempby15" legend="%(SERVER_URL)s/msconfig/cmapicons/egempby15_2000.png" lid="GSMEGEMP" name="Employees" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
+				<wmsLayer identify="true" layers="egduby5" legend="%(SERVER_URL)s/msconfig/cmapicons/egduby5_2000.png" lid="GSMEGDU" name="Homes" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 
+			</wmsSubgroup>
+			<wmsSubgroup label="Preferred Scenario">
+				<wmsLayer identify="true" layers="psempby15" legend="%(SERVER_URL)s/msconfig/cmapicons/psempby15_2000.png" lid="GSMPSEMP" name="Employees" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
+				<wmsLayer identify="true" layers="psduby5" legend="%(SERVER_URL)s/msconfig/cmapicons/psduby5_2000.png" lid="GSMPSDU" name="Homes" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 
+			</wmsSubgroup>
+			<wmsSubgroup label="Resource Conservation">
+				<wmsLayer identify="true" layers="rcempby15" legend="%(SERVER_URL)s/msconfig/cmapicons/rcempby15_2000.png" lid="GSMRCEMP" name="Employees" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
+				<wmsLayer identify="true" layers="rcduby5" legend="%(SERVER_URL)s/msconfig/cmapicons/rcduby5_2000.png" lid="GSMRCDU" name="Homes" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 
+			</wmsSubgroup>			
 			<wmsSubgroup label="Suitability">
 				<wmsLayer identify="true" layers="comsuit" legend="%(SERVER_URL)s/msconfig/cmapicons/comsuit.png" lid="GSMSCS" name="Commercial Suitability" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 	 
 				<wmsLayer identify="true" layers="indsuit" legend="%(SERVER_URL)s/msconfig/cmapicons/indsuit.png" lid="GSMISS" name="Industrial Suitability" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/rlayers?TRANSPARENT=true" visible="false" />	 	 

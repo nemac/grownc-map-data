@@ -790,4 +790,295 @@ MAP
 			"gml_value_0_alias"     "tmin_an_81_10"
         END  # end METADATA
     END # end LAYER						
+    LAYER
+        NAME bauempby15
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/bauempby15_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/bauempby15_2000.cmap"
+        METADATA
+            "wms_title"             "bauempby15"
+            "wms_abstract"          "bauempby15"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "bauempby15"
+        END  # end METADATA
+    END # end LAYER							
+    LAYER
+        NAME bauduby5
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/bauduby5_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/bauduby5_2000.cmap"
+        METADATA
+            "wms_title"             "bauduby5"
+            "wms_abstract"          "bauduby5"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "bauduby5"
+        END  # end METADATA
+    END # end LAYER								
+    LAYER
+        NAME egempby15
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/egempby15_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/egempby15_2000.cmap"
+        METADATA
+            "wms_title"             "egempby15"
+            "wms_abstract"          "egempby15"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "egempby15"
+        END  # end METADATA
+    END # end LAYER								
+    LAYER
+        NAME egduby5
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/egduby5_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/egduby5_2000.cmap"
+        METADATA
+            "wms_title"             "egduby5"
+            "wms_abstract"          "egduby5"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "egduby5"
+        END  # end METADATA
+    END # end LAYER									
+    LAYER
+        NAME psempby15
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/psempby15_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/psempby15_2000.cmap"
+        METADATA
+            "wms_title"             "psempby15"
+            "wms_abstract"          "psempby15"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "psempby15"
+        END  # end METADATA
+    END # end LAYER								
+    LAYER
+        NAME psduby5
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/psduby5_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/psduby5_2000.cmap"
+        METADATA
+            "wms_title"             "psduby5"
+            "wms_abstract"          "psduby5"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "psduby5"
+        END  # end METADATA
+    END # end LAYER										
+    LAYER
+        NAME rcempby15
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/rcempby15_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/rcempby15_2000.cmap"
+        METADATA
+            "wms_title"             "rcempby15"
+            "wms_abstract"          "rcempby15"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "rcempby15"
+        END  # end METADATA
+    END # end LAYER										
+    LAYER
+        NAME rcduby5
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/rcduby5_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/rcduby5_2000.cmap"
+        METADATA
+            "wms_title"             "rcduby5"
+            "wms_abstract"          "rcduby5"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "rcduby5"
+        END  # end METADATA
+    END # end LAYER											
+    LAYER
+        NAME epempby15
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/epempby15_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/epempby15.html
+		INCLUDE "cmaps/epempby15_2000.cmap"
+        METADATA
+            "wms_title"             "epempby15"
+            "wms_abstract"          "epempby15"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "epempby15"
+        END  # end METADATA
+    END # end LAYER											
+    LAYER
+        NAME epduby5
+        PROJECTION
+			"proj=lcc"
+			"lat_1=34.33333333333334"
+			"lat_2=36.16666666666666"
+			"lat_0=33.75"
+			"lon_0=-79"
+			"x_0=609601.2199999999"
+			"y_0=0"
+			"ellps=GRS80"
+			"datum=NAD83"
+			"to_meter=0.3048006096012192"
+			"no_defs"
+        END
+        TYPE     RASTER
+        DUMP     TRUE
+        STATUS   OFF
+        DATA     /flood/grownc/epduby5_2000.img
+        HEADER   ./templates/layer_query_header.html
+        TEMPLATE ./templates/layer_query_body.html
+		INCLUDE "cmaps/epduby5_2000.cmap"
+        METADATA
+            "wms_title"             "epduby5"
+            "wms_abstract"          "epduby5"
+            "gml_include_items"     "value_list"
+			"gml_value_0_alias"     "epduby5"
+        END  # end METADATA
+    END # end LAYER												
+	
 END # end MAP
