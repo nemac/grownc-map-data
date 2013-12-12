@@ -2061,7 +2061,7 @@ MAP
             "init=epsg:4326"
         END
         CONNECTIONTYPE   postgis
-        CONNECTION       "%(POSTGIS_CONNECTION_STRING)s"
+        CONNECTION       "host=localhost dbname=grownc user=geo1  password=ge0oneu5er"
         DATA             "the_geom from county_boundaries"
         EXTENT           -124.733174 24.543940 -66.950005 49.384359 # US
         STATUS           OFF
@@ -2069,12 +2069,28 @@ MAP
         DUMP             TRUE
         HEADER           ./templates/layer_query_header.html
         TEMPLATE         ./templates/layer_query_body.html
+		LABELITEM    	 "co_name"
         CLASS
             NAME "county_boundaries"
             STYLE
-                COLOR        232 232 232
+                #COLOR        232 232 232
                 OUTLINECOLOR 0 0 0 
             END
+		    LABEL
+				TYPE TRUETYPE
+				FONT arial-bold
+				SIZE 12
+				ANTIALIAS TRUE
+				POSITION CL
+				PARTIALS FALSE
+				MINDISTANCE 300
+				BUFFER 4
+				STYLE    # since to version 6
+				  GEOMTRANSFORM 'labelpoly'
+				  #COLOR 218 218 218
+				  OFFSET 2 2
+				END # STYLE
+		    END # end of label		
         END
         METADATA
             "wms_title"            "county_boundaries"
