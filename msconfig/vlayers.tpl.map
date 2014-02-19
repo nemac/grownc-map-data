@@ -98,7 +98,7 @@ MAP
         METADATA
             "wms_title"          "abandoned_railroads"
             "wms_abstract"       "abandoned_railroads"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid"
         END  # end METADATA
     END # 
 	LAYER # 
@@ -154,7 +154,7 @@ MAP
         METADATA
             "wms_title"          "airports"
             "wms_abstract"       "airports"
-            "gml_include_items"  "all"
+            "gml_include_items"  "arpt_name,class"
         END  # end METADATA
     END # 	
     LAYER # 
@@ -182,7 +182,7 @@ MAP
         METADATA
             "wms_title"          "appalachian_trail"
             "wms_abstract"       "appalachian_trail"
-            "gml_include_items"  "all"
+            "gml_include_items"  "status,surface,shared_use"
         END  # end METADATA
     END #	
     LAYER # 
@@ -210,7 +210,7 @@ MAP
         METADATA
             "wms_title"          "appalachian_trail_parking"
             "wms_abstract"       "appalachian_trail_parking"
-            "gml_include_items"  "all"
+            "gml_include_items"  "name,surface,type"
         END  # end METADATA
     END #	
 	LAYER # 
@@ -266,7 +266,7 @@ MAP
         METADATA
             "wms_title"          "Major_Roads"
             "wms_abstract"       "Major_Roads"
-            "gml_include_items"  "all"
+            "gml_include_items"  "type,LABEL,gid"
         END  # end METADATA
     END #
     LAYER # 
@@ -294,7 +294,7 @@ MAP
         METADATA
             "wms_title"          "appalachian_trail_shelters"
             "wms_abstract"       "appalachian_trail_shelters"
-            "gml_include_items"  "all"
+            "gml_include_items"  "name,type,ownership"
         END  # end METADATA
     END #	
     LAYER # 
@@ -322,7 +322,7 @@ MAP
         METADATA
             "wms_title"          "blue_ridge_parkway"
             "wms_abstract"       "blue_ridge_parkway"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid,overlook"
         END  # end METADATA
     END #		
     LAYER # 
@@ -350,7 +350,7 @@ MAP
         METADATA
             "wms_title"          "dams_all"
             "wms_abstract"       "dams_all"
-            "gml_include_items"  "all"
+            "gml_include_items"  "dam_name,own_name,river"
         END  # end METADATA
     END #
 
@@ -408,7 +408,7 @@ MAP
         METADATA
             "wms_title"          "WindPower_Potential_Fair_or_Better"
             "wms_abstract"       "WindPower_Potential_Fair_or_Better"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid"
         END  # end METADATA
     END #
 	
@@ -437,7 +437,7 @@ MAP
         METADATA
             "wms_title"          "Consensus_Growth_Areas"
             "wms_abstract"       "Consensus_Growth_Areas"
-            "gml_include_items"  "all"
+            "gml_include_items"  "name,gid"
         END  # end METADATA
     END #
 	
@@ -466,7 +466,7 @@ MAP
         METADATA
             "wms_title"          "Existing_Land_Use"
             "wms_abstract"       "Existing_Land_Use"
-            "gml_include_items"  "all"
+            "gml_include_items"  "LU,OWNER"
         END  # end METADATA
     END #
 	
@@ -495,7 +495,7 @@ MAP
         METADATA
             "wms_title"          "Land_Supply"
             "wms_abstract"       "Land_Supply"
-            "gml_include_items"  "all"
+            "gml_include_items"  "LU,OWNER,landsupply"
         END  # end METADATA
     END #
 	
@@ -524,7 +524,7 @@ MAP
         METADATA
             "wms_title"          "Protected_Lands"
             "wms_abstract"       "Protected_Lands"
-            "gml_include_items"  "all"
+            "gml_include_items"  "LMA_SITE,AGENCY"
         END  # end METADATA
     END #
 	
@@ -553,7 +553,7 @@ MAP
         METADATA
             "wms_title"          "Brownfield_Sites"
             "wms_abstract"       "Brownfield_Sites"
-            "gml_include_items"  "all"
+            "gml_include_items"  "Project_No,Name"
         END  # end METADATA
     END #
 	
@@ -582,7 +582,7 @@ MAP
         METADATA
             "wms_title"          "Hazardous_Waste_Sites"
             "wms_abstract"       "Hazardous_Waste_Sites"
-            "gml_include_items"  "all"
+            "gml_include_items"  "site_name,gid"
         END  # end METADATA
     END #
 	
@@ -611,7 +611,7 @@ MAP
         METADATA
             "wms_title"          "Public_Landfills"
             "wms_abstract"       "Public_Landfills"
-            "gml_include_items"  "all"
+            "gml_include_items"  "permit_nam,permitstat,primarywas"
         END  # end METADATA
     END #
 	
@@ -640,7 +640,7 @@ MAP
         METADATA
             "wms_title"          "Rural_Centers"
             "wms_abstract"       "Rural_Centers"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid,Name"
         END  # end METADATA
     END #
 	
@@ -669,7 +669,7 @@ MAP
         METADATA
             "wms_title"          "Urban_Service_Areas"
             "wms_abstract"       "Urban_Service_Areas"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid,SSSYNAME"
         END  # end METADATA
     END #
 	
@@ -727,7 +727,7 @@ MAP
         METADATA
             "wms_title"          "EMS_Locations"
             "wms_abstract"       "EMS_Locations"
-            "gml_include_items"  "all"
+            "gml_include_items"  "name,telephone,address,city,state,zip"
         END  # end METADATA
     END #
 	
@@ -756,7 +756,7 @@ MAP
         METADATA
             "wms_title"          "DriveTime_5min_Fire_EMS"
             "wms_abstract"       "DriveTime_5min_Fire_EMS"
-            "gml_include_items"  "all"
+            "gml_include_items"  "gid,Name"
         END  # end METADATA
     END #
 
@@ -785,7 +785,7 @@ MAP
         METADATA
             "wms_title"            "eastern_continental_divide"
             "wms_abstract"         "eastern_continental_divide"
-            "gml_include_items"    "all"
+            "gml_include_items"    "region,subregion,basin,subbasin"
         END  # end METADATA
     END # end Layer
     
@@ -813,7 +813,7 @@ MAP
         METADATA
             "wms_title"            "floodplains_500yr"
             "wms_abstract"         "floodplains_500yr"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid"
         END  # end METADATA
     END # end Layer
     
@@ -841,7 +841,7 @@ MAP
         METADATA
             "wms_title"            "geologic_faults"
             "wms_abstract"         "geologic_faults"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid"
         END  # end METADATA
     END # end Layer
     
@@ -869,7 +869,7 @@ MAP
         METADATA
             "wms_title"            "geology"
             "wms_abstract"         "geology"
-            "gml_include_items"    "all"
+            "gml_include_items"    "TYPE,FORMATION,DESCRIP_1,DESCRIP_2,DESCRIP_3"
         END  # end METADATA
     END # end Layer
     
@@ -897,7 +897,7 @@ MAP
         METADATA
             "wms_title"            "hqw_orw"
             "wms_abstract"         "hqw_orw"
-            "gml_include_items"    "all"
+            "gml_include_items"    "riv_basin,name,class"
         END  # end METADATA
     END # end Layer
     
@@ -925,7 +925,7 @@ MAP
         METADATA
             "wms_title"            "landslide_locations"
             "wms_abstract"         "landslide_locations"
-            "gml_include_items"    "all"
+            "gml_include_items"    "col_date,type,project,quad_24k"
         END  # end METADATA
     END # end Layer
     
@@ -953,7 +953,7 @@ MAP
         METADATA
             "wms_title"            "major_lakes"
             "wms_abstract"         "major_lakes"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,name"
         END  # end METADATA
     END # end Layer
     
@@ -981,7 +981,7 @@ MAP
         METADATA
             "wms_title"            "major_rivers"
             "wms_abstract"         "major_rivers"
-            "gml_include_items"    "all"
+            "gml_include_items"    "stream_nam,riv_basin,descrip_cl"
         END  # end METADATA
     END # end Layer
     
@@ -1009,7 +1009,7 @@ MAP
         METADATA
             "wms_title"            "managed_areas"
             "wms_abstract"         "managed_areas"
-            "gml_include_items"    "all"
+            "gml_include_items"    "ma_name,owner,gap_status"
         END  # end METADATA
     END # end Layer
     
@@ -1037,7 +1037,7 @@ MAP
         METADATA
             "wms_title"            "significant_natural_heritage_areas"
             "wms_abstract"         "significant_natural_heritage_areas"
-            "gml_include_items"    "all"
+            "gml_include_items"    "site_name,owner"
         END  # end METADATA
     END # end Layer
     
@@ -1065,7 +1065,7 @@ MAP
         METADATA
             "wms_title"            "streams_24k"
             "wms_abstract"         "streams_24k"
-            "gml_include_items"    "all"
+            "gml_include_items"    "dwqname,dwqdescr,dwqclass"
         END  # end METADATA
     END # end Layer
     
@@ -1093,7 +1093,7 @@ MAP
         METADATA
             "wms_title"            "waterbodies"
             "wms_abstract"         "waterbodies"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,fcode_desc"
         END  # end METADATA
     END # end Layer
     
@@ -1121,7 +1121,7 @@ MAP
         METADATA
             "wms_title"            "watersheds_12digit"
             "wms_abstract"         "watersheds_12digit"
-            "gml_include_items"    "all"
+            "gml_include_items"    "hu_10_name,hu_12_name,basin,subbasin"
         END  # end METADATA
     END # end Layer
     
@@ -1149,7 +1149,7 @@ MAP
         METADATA
             "wms_title"            "watersheds_8digit"
             "wms_abstract"         "watersheds_8digit"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,globalid"
         END  # end METADATA
     END # end Layer
     
@@ -1177,7 +1177,7 @@ MAP
         METADATA
             "wms_title"            "watersheds_ws"
             "wms_abstract"         "watersheds_ws"
-            "gml_include_items"    "all"
+            "gml_include_items"    "stream_nam,river_basi"
         END  # end METADATA
     END # end Layer
     
@@ -1205,7 +1205,7 @@ MAP
         METADATA
             "wms_title"            "wetlands"
             "wms_abstract"         "wetlands"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,wetland_ty"
         END  # end METADATA
     END # end Layer	
 	
@@ -1233,7 +1233,7 @@ MAP
         METADATA
             "wms_title"            "Critical_Ecological_Corridors"
             "wms_abstract"         "Critical_Ecological_Corridors"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid"
         END  # end METADATA
     END # end Layer	
 	
@@ -1261,7 +1261,7 @@ MAP
         METADATA
             "wms_title"            "Impaired_303D_Streams"
             "wms_abstract"         "Impaired_303D_Streams"
-            "gml_include_items"    "all"
+            "gml_include_items"    "EVENTDATE,gid"
         END  # end METADATA
     END # end Layer	
 	
@@ -1289,7 +1289,7 @@ MAP
         METADATA
             "wms_title"            "Viewsheds_AT_BRP"
             "wms_abstract"         "Viewsheds_AT_BRP"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,FID_AT_Vie"
         END  # end METADATA
     END # end Layer	
 
@@ -1319,7 +1319,7 @@ MAP
         METADATA
             "wms_title"            "gas_stations"
             "wms_abstract"         "gas_stations"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,title,parent_com"
         END  # end METADATA
     END # end Layer
 	
@@ -1375,7 +1375,7 @@ MAP
         METADATA
             "wms_title"            "USDA_Food_Stamp_Businesses"
             "wms_abstract"         "USDA_Food_Stamp_Businesses"
-            "gml_include_items"    "all"
+            "gml_include_items"    "STORE_NAME,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1403,7 +1403,7 @@ MAP
         METADATA
             "wms_title"            "Agriculture_Supportive_Lands"
             "wms_abstract"         "Agriculture_Supportive_Lands"
-            "gml_include_items"    "all"
+            "gml_include_items"    "SHAPE_Area,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1431,7 +1431,7 @@ MAP
         METADATA
             "wms_title"            "Prime_Industrial_Land"
             "wms_abstract"         "Prime_Industrial_Land"
-            "gml_include_items"    "all"
+            "gml_include_items"    "LU,OWNER,LandSupply"
         END  # end METADATA
     END # end Layer
 	
@@ -1459,7 +1459,7 @@ MAP
         METADATA
             "wms_title"            "HighDensity_Street_Areas"
             "wms_abstract"         "HighDensity_Street_Areas"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,ID"
         END  # end METADATA
     END # end Layer
 
@@ -1489,7 +1489,7 @@ MAP
         METADATA
             "wms_title"            "game_lands"
             "wms_abstract"         "game_lands"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gml_hab,gml_own,region"
         END  # end METADATA
     END # end Layer
 	
@@ -1517,7 +1517,7 @@ MAP
         METADATA
             "wms_title"            "public_trout_rivers"
             "wms_abstract"         "public_trout_rivers"
-            "gml_include_items"    "all"
+            "gml_include_items"    "stream_nam,wrc_class"
         END  # end METADATA
     END # end Layer
 	
@@ -1545,7 +1545,7 @@ MAP
         METADATA
             "wms_title"            "colleges_universities"
             "wms_abstract"         "colleges_universities"
-            "gml_include_items"    "all"
+            "gml_include_items"    "NAME,NAICSDESCR,DEGREE"
         END  # end METADATA
     END # end Layer
 	
@@ -1573,7 +1573,7 @@ MAP
         METADATA
             "wms_title"            "private_schools"
             "wms_abstract"         "private_schools"
-            "gml_include_items"    "all"
+            "gml_include_items"    "schl_name,grades"
         END  # end METADATA
     END # end Layer
 	
@@ -1601,7 +1601,7 @@ MAP
         METADATA
             "wms_title"            "public_schools"
             "wms_abstract"         "public_schools"
-            "gml_include_items"    "all"
+            "gml_include_items"    "school_nam,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1629,7 +1629,7 @@ MAP
         METADATA
             "wms_title"            "hospitals"
             "wms_abstract"         "hospitals"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,naicsdescr"
         END  # end METADATA
     END # end Layer
 	
@@ -1657,7 +1657,7 @@ MAP
         METADATA
             "wms_title"            "medical_facilities"
             "wms_abstract"         "medical_facilities"
-            "gml_include_items"    "all"
+            "gml_include_items"    "STYPE,FACILITY"
         END  # end METADATA
     END # end Layer
 	
@@ -1685,7 +1685,7 @@ MAP
         METADATA
             "wms_title"            "public_health_centers"
             "wms_abstract"         "public_health_centers"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,naicsdescr"
         END  # end METADATA
     END # end Layer
 	
@@ -1713,7 +1713,7 @@ MAP
         METADATA
             "wms_title"            "Camps_Cultural_Features"
             "wms_abstract"         "Camps_Cultural_Features"
-            "gml_include_items"    "all"
+            "gml_include_items"    "gid,LABEL,NAME"
         END  # end METADATA
     END # end Layer
 	
@@ -1741,7 +1741,7 @@ MAP
         METADATA
             "wms_title"            "Key_Locations_and_Parks"
             "wms_abstract"         "Key_Locations_and_Parks"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1769,7 +1769,7 @@ MAP
         METADATA
             "wms_title"            "Mountain_Peaks"
             "wms_abstract"         "Mountain_Peaks"
-            "gml_include_items"    "all"
+            "gml_include_items"    "NAME,ELEV_FEET"
         END  # end METADATA
     END # end Layer
 	
@@ -1797,7 +1797,7 @@ MAP
         METADATA
             "wms_title"            "Mountain_Peaks_3000ft"
             "wms_abstract"         "Mountain_Peaks_3000ft"
-            "gml_include_items"    "all"
+            "gml_include_items"    "NAME,ELEV_FEET"
         END  # end METADATA
     END # end Layer
 	
@@ -1853,7 +1853,7 @@ MAP
         METADATA
             "wms_title"            "DriveTime_5min_HealthCare_Facilities"
             "wms_abstract"         "DriveTime_5min_HealthCare_Facilities"
-            "gml_include_items"    "all"
+            "gml_include_items"    "Name,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1881,7 +1881,7 @@ MAP
         METADATA
             "wms_title"            "DriveTime_10min_Hospitals"
             "wms_abstract"         "DriveTime_10min_Hospitals"
-            "gml_include_items"    "all"
+            "gml_include_items"    "Name,gid"
         END  # end METADATA
     END # end Layer
 	
@@ -1911,7 +1911,7 @@ MAP
         METADATA
             "wms_title"            "urban_areas"
             "wms_abstract"         "urban_areas"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,pop2000"
         END  # end METADATA
     END # end Layer
 	
@@ -1939,7 +1939,7 @@ MAP
         METADATA
             "wms_title"            "census_blocks_2010"
             "wms_abstract"         "census_blocks_2010"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name10,gid,geoid10"
         END  # end METADATA
     END # end Layer
 	
@@ -1967,7 +1967,7 @@ MAP
         METADATA
             "wms_title"            "census_block_groups_2010"
             "wms_abstract"         "census_block_groups_2010"
-            "gml_include_items"    "all"
+            "gml_include_items"    "namelsad10,geoid10,sqmiles"
         END  # end METADATA
     END # end Layer
 	
@@ -1995,7 +1995,7 @@ MAP
         METADATA
             "wms_title"            "census_tracts_2010"
             "wms_abstract"         "census_tracts_2010"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name10,gid,geoid10"
         END  # end METADATA
     END # end Layer
 	
@@ -2023,7 +2023,7 @@ MAP
         METADATA
             "wms_title"            "communities_incorporated"
             "wms_abstract"         "communities_incorporated"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,gid,fips"
         END  # end METADATA
     END # end Layer
 	
@@ -2051,7 +2051,7 @@ MAP
         METADATA
             "wms_title"            "communities_other"
             "wms_abstract"         "communities_other"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,gid,fips"
         END  # end METADATA
     END # end Layer
 	
@@ -2095,7 +2095,7 @@ MAP
         METADATA
             "wms_title"            "county_boundaries"
             "wms_abstract"         "county_boundaries"
-            "gml_include_items"    "all"
+            "gml_include_items"    "co_name,acres,pop2000"
         END  # end METADATA
     END # end Layer
 	
@@ -2123,7 +2123,7 @@ MAP
         METADATA
             "wms_title"            "county_seats"
             "wms_abstract"         "county_seats"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,pop2000"
         END  # end METADATA
     END # end Layer
 	
@@ -2151,7 +2151,7 @@ MAP
         METADATA
             "wms_title"            "federal_lands"
             "wms_abstract"         "federal_lands"
-            "gml_include_items"    "all"
+            "gml_include_items"    "ma_name,owner"
         END  # end METADATA
     END # end Layer
 	
@@ -2179,7 +2179,7 @@ MAP
         METADATA
             "wms_title"            "municipal_boundaries"
             "wms_abstract"         "municipal_boundaries"
-            "gml_include_items"    "all"
+            "gml_include_items"    "mb_name,pop_est,pop_est_yr"
         END  # end METADATA
     END # end Layer
 	
@@ -2207,7 +2207,7 @@ MAP
         METADATA
             "wms_title"            "populated_places"
             "wms_abstract"         "populated_places"
-            "gml_include_items"    "all"
+            "gml_include_items"    "name,elev_meter"
         END  # end METADATA
     END # end Layer
 	
@@ -2235,7 +2235,7 @@ MAP
         METADATA
             "wms_title"            "state_owned_lands"
             "wms_abstract"         "state_owned_lands"
-            "gml_include_items"    "all"
+            "gml_include_items"    "complex_na,dept_name,div_name"
         END  # end METADATA
     END # end Layer
 	
@@ -2263,7 +2263,7 @@ MAP
         METADATA
             "wms_title"            "zip_codes"
             "wms_abstract"         "zip_codes"
-            "gml_include_items"    "all"
+            "gml_include_items"    "zip,po_name"
         END  # end METADATA
     END # end Layer
 	
