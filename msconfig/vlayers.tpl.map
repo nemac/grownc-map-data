@@ -466,7 +466,7 @@ MAP
         METADATA
             "wms_title"          "Existing_Land_Use"
             "wms_abstract"       "Existing_Land_Use"
-            "gml_include_items"  "LU,OWNER"
+            "gml_include_items"  "LU,OWNER,PIN"
         END  # end METADATA
     END #
 	
@@ -495,7 +495,7 @@ MAP
         METADATA
             "wms_title"          "Land_Supply"
             "wms_abstract"       "Land_Supply"
-            "gml_include_items"  "LU,OWNER,landsupply"
+            "gml_include_items"  "LU,OWNER,landsupply,PIN"
         END  # end METADATA
     END #
 	
