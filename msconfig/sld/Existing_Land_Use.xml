@@ -6,7 +6,7 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[FARM]]></Name>
-					<Title><![CDATA[FARM]]></Title>
+					<Title><![CDATA[Farm]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -27,7 +27,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[HS]]></Name>
-					<Title><![CDATA[HS]]></Title>
+					<Title><![CDATA[Homestead]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -48,7 +48,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[RR]]></Name>
-					<Title><![CDATA[RR]]></Title>
+					<Title><![CDATA[Rural Residential]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -69,7 +69,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[VL]]></Name>
-					<Title><![CDATA[VL]]></Title>
+					<Title><![CDATA[Very Low]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -90,7 +90,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[L]]></Name>
-					<Title><![CDATA[L]]></Title>
+					<Title><![CDATA[Low]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -111,7 +111,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[ML]]></Name>
-					<Title><![CDATA[ML]]></Title>
+					<Title><![CDATA[Medium Low]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -132,7 +132,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[M]]></Name>
-					<Title><![CDATA[M]]></Title>
+					<Title><![CDATA[Medium]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -153,7 +153,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[MH]]></Name>
-					<Title><![CDATA[MH]]></Title>
+					<Title><![CDATA[Medium High]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -174,7 +174,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[H]]></Name>
-					<Title><![CDATA[H]]></Title>
+					<Title><![CDATA[High]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -195,7 +195,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[VH]]></Name>
-					<Title><![CDATA[VH]]></Title>
+					<Title><![CDATA[Very High]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -216,7 +216,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[MU]]></Name>
-					<Title><![CDATA[MU]]></Title>
+					<Title><![CDATA[Mixed Use]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -237,7 +237,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[COM]]></Name>
-					<Title><![CDATA[COM]]></Title>
+					<Title><![CDATA[Commercial]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -258,7 +258,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[IND]]></Name>
-					<Title><![CDATA[IND]]></Title>
+					<Title><![CDATA[Industrial]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -279,7 +279,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[INST]]></Name>
-					<Title><![CDATA[INST]]></Title>
+					<Title><![CDATA[Civic, Campus, and Special]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -300,7 +300,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[ROW]]></Name>
-					<Title><![CDATA[ROW]]></Title>
+					<Title><![CDATA[Road/Right of Way/Utility]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -321,7 +321,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[WATER]]></Name>
-					<Title><![CDATA[WATER]]></Title>
+					<Title><![CDATA[Water]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -342,7 +342,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[PARK]]></Name>
-					<Title><![CDATA[PARK]]></Title>
+					<Title><![CDATA[Park]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
@@ -363,7 +363,7 @@
 				</Rule>
 				<Rule>
 					<Name><![CDATA[VACANT]]></Name>
-					<Title><![CDATA[VACANT]]></Title>
+					<Title><![CDATA[Vacant]]></Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>GroWNCLU</ogc:PropertyName>
