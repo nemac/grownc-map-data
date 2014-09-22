@@ -46,7 +46,14 @@ Footer Styles
 
 #footer a {
     color: #fff;
+    margin-right: 5px;
+    border-right: 1px solid #fff;
+}
+
+#footer .link.last {
+    margin-right: 0;
     border-right: 0;
+    padding-right: 0;
 }
 
 /*
