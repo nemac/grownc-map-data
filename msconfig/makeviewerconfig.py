@@ -29,7 +29,7 @@ class Template:
 
 template = Template("grownc_config.tpl.xml")
 		
-f = open("../config/grownc_config.xml", "w+")
+f = open("../html/grownc_config.xml", "w+")
 f.write(template.render( {
             'SERVER_URL'                            : SERVER_URL
             }))

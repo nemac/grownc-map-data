@@ -61,6 +61,7 @@ f_new.close()
 template = Template("rlayers.tpl.map")
 f_new = openMapfileForWriting("rlayers.map")
 f_new.write( template.render( {
-            'SERVICE_URL'  : "%s/%s" % (SERVER_URL, "rlayers")
+    'SERVICE_URL'  : "%s/%s" % (SERVER_URL, "rlayers"),
+    'RASTER_DATA_DIR' : RASTER_DATA_DIR
             } ) )
 f_new.close()
