@@ -1,0 +1,14 @@
+#! /bin/bash
+
+THINGS_TO_COPY="\
+areas.js \
+config \
+grownc.css \
+GroWNC_MapViewer_Description_and_Source_Info.pdf \
+icons \
+index.html \
+libs \
+splashScreen.html \
+"
+
+rsync --delete --exclude **/.git --delete-excluded -av ${THINGS_TO_COPY} html/

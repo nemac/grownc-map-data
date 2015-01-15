@@ -1,4 +1,12 @@
 GroWNC MapViewer
-=========
+================
 
-Custom html, css & config files for the GroWNC mapviewer found at http://mapviewer.gro-wnc.org/
+This is the source code for the GroWNC Map Viewer.
+
+Do build a production-ready copy, run the script
+
+```
+./do-build
+```
+
+This will copy all the necessary assests into the `html` subdirectory.
